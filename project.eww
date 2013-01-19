@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\driverlib\driverlib-cm4f.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\LM4F120\LM4F120.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
