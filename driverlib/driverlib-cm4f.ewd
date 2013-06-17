@@ -314,6 +314,182 @@
       </data>
     </settings>
     <settings>
+      <name>IJET_ID</name>
+      <archiveVersion>2</archiveVersion>
+      <data>
+        <version>0</version>
+        <wantNonLocal>1</wantNonLocal>
+        <debug>1</debug>
+        <option>
+          <name>OCDriverInfo</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>IjetAttachSlave</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OCIarProbeScriptFile</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OCIarProbeConfigFile</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>IjetResetList</name>
+          <version>1</version>
+          <state>10</state>
+        </option>
+        <option>
+          <name>IjetHWResetDuration</name>
+          <state>300</state>
+        </option>
+        <option>
+          <name>IjetHWResetDelay</name>
+          <state>200</state>
+        </option>
+        <option>
+          <name>IjetPowerFromProbe</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>IjetPowerRadio</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetDoLogfile</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetLogFile</name>
+          <state>$PROJ_DIR$\cspycomm.log</state>
+        </option>
+        <option>
+          <name>IjetInterfaceRadio</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetInterfaceCmdLine</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetMultiTargetEnable</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetMultiTarget</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetScanChainNonARMDevices</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetIRLength</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetJtagSpeedList</name>
+          <version>0</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetProtocolRadio</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetSwoPin</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetCpuClockEdit</name>
+          <state>72.0</state>
+        </option>
+        <option>
+          <name>IjetSwoPrescalerList</name>
+          <version>1</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetBreakpointRadio</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetRestoreBreakpointsCheck</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>IjetUpdateBreakpointsEdit</name>
+          <state>_call_main</state>
+        </option>
+        <option>
+          <name>RDICatchReset</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>RDICatchUndef</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>RDICatchSWI</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>RDICatchData</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>RDICatchPrefetch</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>RDICatchIRQ</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>RDICatchFIQ</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchCORERESET</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchMMERR</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchNOCPERR</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchCHKERR</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchSTATERR</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchBUSERR</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchINTERR</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchHARDERR</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CatchDummy</name>
+          <state>0</state>
+        </option>
+      </data>
+    </settings>
+    <settings>
       <name>JLINK_ID</name>
       <archiveVersion>2</archiveVersion>
       <data>
@@ -635,7 +811,7 @@
       <name>PEMICRO_ID</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>0</version>
+        <version>1</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -691,6 +867,14 @@
         </option>
         <option>
           <name>CCPEMicroCommCmdLineProducer</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CCSTLinkInterfaceRadio</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CCSTLinkInterfaceCmdLine</name>
           <state>0</state>
         </option>
       </data>
@@ -953,6 +1137,10 @@
       </plugin>
       <plugin>
         <file>$TOOLKIT_DIR$\plugins\rtos\uCOS-II\uCOS-II-KA-CSpy.ewplugin</file>
+        <loadFlag>0</loadFlag>
+      </plugin>
+      <plugin>
+        <file>$TOOLKIT_DIR$\plugins\rtos\uCOS-III\uCOS-III-KA-CSpy.ewplugin</file>
         <loadFlag>0</loadFlag>
       </plugin>
       <plugin>

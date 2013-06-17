@@ -5,7 +5,13 @@
     <path>$WS_DIR$\driverlib\driverlib-cm4f.ewp</path>
   </project>
   <project>
+    <path>$WS_DIR$\LightSensor\LightSensor.ewp</path>
+  </project>
+  <project>
     <path>$WS_DIR$\LM4F120\LM4F120.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PWM_Demo\PWM_DEMO.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

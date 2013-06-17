@@ -1,0 +1,250 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.40.2.53884/W32 for ARM              11/Jun/2013  13:38:32 #
+# Copyright 2007-2012 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Git\LM4F120\LM4F120\Debug\Exe\cpp.out                 #
+#    Map file     =  C:\Git\LM4F120\LM4F120\Debug\List\cpp.map                #
+#    Command line =  C:\Git\LM4F120\LM4F120\Debug\Obj\cmdline.o               #
+#                    C:\Git\LM4F120\LM4F120\Debug\Obj\main.o                  #
+#                    C:\Git\LM4F120\LM4F120\Debug\Obj\startup_ewarm.o         #
+#                    C:\Git\LM4F120\LM4F120\Debug\Obj\uartstdio.o             #
+#                    C:\Git\LM4F120\LM4F120\lib\driverlib-cm4f.a -o           #
+#                    C:\Git\LM4F120\LM4F120\Debug\Exe\cpp.out --redirect      #
+#                    _Printf=_PrintfTiny --redirect _Scanf=_ScanfSmall --map  #
+#                    C:\Git\LM4F120\LM4F120\Debug\List\cpp.map --config       #
+#                    C:\StellarisWare\boards\ek-lm4f120xl\project0\project0.i #
+#                    cf --semihosting --entry __iar_program_start --vfe       #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Error[Li005]: no definition for "__iar_program_start()" [referenced from
+          C:\Git\LM4F120\LM4F120\Debug\Obj\startup_ewarm.o]
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Language  = EC++
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x00000000-0x0003ffff] { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0003ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block HEAP };
+
+  Section          Kind        Address   Size  Object
+  -------          ----        -------   ----  ------
+"A1":                                   0x2ac
+  .intvec          const    0x00000000  0x26c  startup_ewarm.o [1]
+  .intvec          ro code  0x0000026c   0x40  vector_table_M.o [6]
+                          - 0x000002ac  0x2ac
+
+"P1":                                   0x8a8
+  .text            ro code  0x000002ac  0x460  uartstdio.o [1]
+  .text            ro code  0x0000070c  0x19c  gpio.o [4]
+  .text            ro code  0x000008a8  0x140  main.o [1]
+  .text            ro code  0x000009e8   0x66  timer.o [4]
+  .text            ro code  0x00000a4e   0x22  zero_init3.o [6]
+  .text            ro code  0x00000a70   0x28  data_init3.o [6]
+  .iar.init_table  const    0x00000a98   0x10  - Linker created -
+  .text            ro code  0x00000aa8   0x1e  startup_ewarm.o [1]
+  .text            ro code  0x00000ac6    0x2  vector_table_M.o [6]
+  .text            ro code  0x00000ac8   0x1a  fpinit_M.o [5]
+  .text            ro code  0x00000ae4   0x16  cmain.o [6]
+  .text            ro code  0x00000afa    0x4  low_level_init.o [3]
+  .text            ro code  0x00000afe    0x4  exit.o [3]
+  .text            ro code  0x00000b04    0xa  cexit.o [6]
+  .text            ro code  0x00000b10   0x14  exit.o [7]
+  .rodata          const    0x00000b24    0xc  uartstdio.o [1]
+  .rodata          const    0x00000b30    0xc  uartstdio.o [1]
+  .rodata          const    0x00000b3c    0xc  uartstdio.o [1]
+  .text            ro code  0x00000b48    0xc  cstartup_M.o [6]
+  .rodata          const    0x00000b54    0x0  zero_init3.o [6]
+                          - 0x00000b54  0x8a8
+
+"P2", part 1 of 2:                      0x4a4
+  .bss             zero     0x20000000  0x400  uartstdio.o [1]
+  .bss             zero     0x20000400   0x80  uartstdio.o [1]
+  .bss             zero     0x20000480    0x8  main.o [1]
+  .bss             zero     0x20000488    0x4  uartstdio.o [1]
+  .bss             zero     0x2000048c    0x4  uartstdio.o [1]
+  .bss             zero     0x20000490    0x4  uartstdio.o [1]
+  .bss             zero     0x20000494    0x4  uartstdio.o [1]
+  .bss             zero     0x20000498    0x4  uartstdio.o [1]
+  .bss             zero     0x2000049c    0x4  uartstdio.o [1]
+  .bss             zero     0x200004a0    0x1  uartstdio.o [1]
+  .bss             zero     0x200004a1    0x1  uartstdio.o [1]
+                          - 0x200004a2  0x4a2
+
+"P2", part 2 of 2:                      0x200
+  .noinit          uninit   0x200004a4  0x200  startup_ewarm.o [1]
+                          - 0x200006a4  0x200
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4a2:
+          0x20000000  0x4a2
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+C:\Git\LM4F120\LM4F120\Debug\Obj: [1]
+    main.o                320                 8
+    startup_ewarm.o        30      620      512
+    uartstdio.o         1 120       36    1 178
+    -------------------------------------------
+    Total:              1 470      656    1 698
+
+command line: [2]
+    -------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+driverlib-cm4f.a: [4]
+    gpio.o                412
+    timer.o               102
+    -------------------------------------------
+    Total:                514
+
+m7M_tlv.a: [5]
+    fpinit_M.o             26
+    -------------------------------------------
+    Total:                 26
+
+rt7M_tl.a: [6]
+    cexit.o                10
+    cmain.o                22
+    cstartup_M.o           12
+    data_init3.o           40
+    vector_table_M.o       66
+    zero_init3.o           34
+    -------------------------------------------
+    Total:                184
+
+shb_l.a: [7]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6
+    Linker created                  16
+-----------------------------------------------
+    Grand Total:        2 228      672    1 698
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                  0x00000ae5         Code  Gb  cmain.o [6]
+BusFault_Handler       0x00000ac7         Code  Wk  vector_table_M.o [6]
+CSTACK$$Limit          0x00000000          --   Gb  - Linker created -
+DebugMon_Handler       0x00000ac7         Code  Wk  vector_table_M.o [6]
+FaultISR()             0x00000ac3    0x2  Code  Lc  startup_ewarm.o [1]
+GPIODirModeSet         0x0000070d   0x28  Code  Gb  gpio.o [4]
+GPIOPadConfigSet       0x00000735   0x98  Code  Gb  gpio.o [4]
+GPIOPinConfigure       0x000007ed   0x3e  Code  Gb  gpio.o [4]
+GPIOPinTypeTimer       0x000007d9   0x14  Code  Gb  gpio.o [4]
+HardFault_Handler      0x00000ac7         Code  Wk  vector_table_M.o [6]
+IntDefaultHandler()    0x00000ac5    0x2  Code  Lc  startup_ewarm.o [1]
+IsBufferEmpty(unsigned long volatile *, unsigned long volatile *)
+                       0x000002c9   0x12  Code  Lc  uartstdio.o [1]
+IsBufferFull(unsigned long volatile *, unsigned long volatile *, unsigned long)
+                       0x000002ad   0x1c  Code  Lc  uartstdio.o [1]
+MemManage_Handler      0x00000ac7         Code  Wk  vector_table_M.o [6]
+NMI_Handler            0x00000ac7         Code  Wk  vector_table_M.o [6]
+NmiSR()                0x00000ac1    0x2  Code  Lc  startup_ewarm.o [1]
+PWM_CTR                0x20000480    0x8  Data  Gb  main.o [1]
+PendSV_Handler         0x00000ac7         Code  Wk  vector_table_M.o [6]
+Region$$Table$$Base    0x00000a98          --   Gb  - Linker created -
+Region$$Table$$Limit   0x00000aa8          --   Gb  - Linker created -
+ResetISR()             0x00000aa9   0x14  Code  Gb  startup_ewarm.o [1]
+SVC_Handler            0x00000ac7         Code  Wk  vector_table_M.o [6]
+SysTick_Handler        0x00000ac7         Code  Wk  vector_table_M.o [6]
+TimerConfigure         0x000009f5   0x28  Code  Gb  timer.o [4]
+TimerEnable            0x000009e9    0xc  Code  Gb  timer.o [4]
+TimerLoadSet           0x00000a25   0x12  Code  Gb  timer.o [4]
+TimerMatchSet          0x00000a37   0x12  Code  Gb  timer.o [4]
+UARTFlushRx            0x00000513   0x24  Code  Gb  uartstdio.o [1]
+UARTFlushTx            0x00000537   0x38  Code  Gb  uartstdio.o [1]
+UARTPrimeTransmit(unsigned long)
+                       0x000002db   0x9a  Code  Lc  uartstdio.o [1]
+UARTStdioConfig        0x00000375   0xc2  Code  Gb  uartstdio.o [1]
+UARTStdioInit          0x00000437   0x1c  Code  Gb  uartstdio.o [1]
+UARTStdioIntHandler()  0x0000056f  0x152  Code  Gb  uartstdio.o [1]
+UARTwrite              0x00000453   0xc0  Code  Gb  uartstdio.o [1]
+UsageFault_Handler     0x00000ac7         Code  Wk  vector_table_M.o [6]
+__cmain                0x00000ae5         Code  Gb  cmain.o [6]
+__exit                 0x00000b11   0x14  Code  Gb  exit.o [7]
+__iar_data_init3       0x00000a71   0x28  Code  Gb  data_init3.o [6]
+__iar_init_vfp         0x00000ac9         Code  Gb  fpinit_M.o [5]
+__iar_program_start    0x00000b49         Code  Gb  cstartup_M.o [6]
+__iar_zero_init3       0x00000a4f   0x22  Code  Gb  zero_init3.o [6]
+__low_level_init       0x00000afb    0x4  Code  Gb  low_level_init.o [3]
+__vector_table         0x00000000  0x26c  Data  Lc  startup_ewarm.o [1]
+__vector_table         0x0000026c         Data  Gb  vector_table_M.o [6]
+_call_main             0x00000af1         Code  Gb  cmain.o [6]
+_exit                  0x00000b05         Code  Gb  cexit.o [6]
+_main                  0x00000af7         Code  Gb  cmain.o [6]
+exit                   0x00000aff    0x4  Code  Gb  exit.o [3]
+g_bDisableEcho         0x200004a0    0x1  Data  Lc  uartstdio.o [1]
+g_pcUARTRxBuffer       0x20000400   0x80  Data  Lc  uartstdio.o [1]
+g_pcUARTTxBuffer       0x20000000  0x400  Data  Lc  uartstdio.o [1]
+g_pulGPIOBaseAddrs     0x00000830   0x78  Data  Lc  gpio.o [4]
+g_ulBase               0x20000498    0x4  Data  Lc  uartstdio.o [1]
+g_ulPortNum            0x2000049c    0x4  Data  Lc  uartstdio.o [1]
+g_ulUARTBase           0x00000b24    0xc  Data  Lc  uartstdio.o [1]
+g_ulUARTInt            0x00000b30    0xc  Data  Lc  uartstdio.o [1]
+g_ulUARTPeriph         0x00000b3c    0xc  Data  Lc  uartstdio.o [1]
+g_ulUARTRxReadIndex    0x20000494    0x4  Data  Lc  uartstdio.o [1]
+g_ulUARTRxWriteIndex   0x20000490    0x4  Data  Lc  uartstdio.o [1]
+g_ulUARTTxReadIndex    0x2000048c    0x4  Data  Lc  uartstdio.o [1]
+g_ulUARTTxWriteIndex   0x20000488    0x4  Data  Lc  uartstdio.o [1]
+main                   0x000008a9   0xfa  Code  Gb  main.o [1]
+pulStack               0x200004a4  0x200  Data  Lc  startup_ewarm.o [1]
+
+
+[1] = C:\Git\LM4F120\LM4F120\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = driverlib-cm4f.a
+[5] = m7M_tlv.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  2 228 bytes of readonly  code memory
+    672 bytes of readonly  data memory
+  1 698 bytes of readwrite data memory
+
+Errors: 1
+Warnings: none

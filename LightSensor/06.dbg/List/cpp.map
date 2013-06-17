@@ -1,0 +1,255 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.40.2.53884/W32 for ARM              17/Jun/2013  20:58:29 #
+# Copyright 2007-2012 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Git\LM4F120\LightSensor\06.dbg\Exe\cpp.out            #
+#    Map file     =  C:\Git\LM4F120\LightSensor\06.dbg\List\cpp.map           #
+#    Command line =  C:\Git\LM4F120\LightSensor\03.lib\driverlib-cm4f.a       #
+#                    C:\Git\LM4F120\LightSensor\06.dbg\Obj\LedMatrix.o        #
+#                    C:\Git\LM4F120\LightSensor\06.dbg\Obj\lightSensor.o      #
+#                    C:\Git\LM4F120\LightSensor\06.dbg\Obj\main.o             #
+#                    C:\Git\LM4F120\LightSensor\06.dbg\Obj\startup_ewarm.o    #
+#                    C:\Git\LM4F120\LightSensor\06.dbg\Obj\system.o -o        #
+#                    C:\Git\LM4F120\LightSensor\06.dbg\Exe\cpp.out            #
+#                    --redirect _Printf=_PrintfFull --redirect                #
+#                    _Scanf=_ScanfFull --map C:\Git\LM4F120\LightSensor\06.db #
+#                    g\List\cpp.map --config "C:\Program Files\IAR            #
+#                    Systems\Embedded Workbench 6.4\arm\config\linker\TexasIn #
+#                    struments\LM4F120H5QR.icf" --semihosting --entry         #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0003ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                     0x26c
+  .intvec            const    0x00000000  0x26c  startup_ewarm.o [1]
+                            - 0x0000026c  0x26c
+
+"P1":                                     0x838
+  .text              ro code  0x0000026c  0x240  sysctl.o [4]
+  .text              ro code  0x000004ac  0x10c  LedMatrix.o [1]
+  .text              ro code  0x000005b8   0xe4  gpio.o [4]
+  .text              ro code  0x0000069c   0x14  memset.o [3]
+  .text              ro code  0x000006b0   0x66  ABImemset.o [6]
+  .text              ro code  0x00000716   0x2e  copy_init3.o [6]
+  .text              ro code  0x00000744   0xac  interrupt.o [4]
+  .text              ro code  0x000007f0    0x8  cpu.o [4]
+  .text              ro code  0x000007f8   0xa8  lightSensor.o [1]
+  .text              ro code  0x000008a0   0x44  adc.o [4]
+  .text              ro code  0x000008e4   0x60  system.o [1]
+  .text              ro code  0x00000944   0x58  main.o [1]
+  .text              ro code  0x0000099c   0x28  data_init3.o [6]
+  .text              ro code  0x000009c4   0x22  startup_ewarm.o [1]
+  .text              ro code  0x000009e6    0xc  cstartup_M.o [6]
+  .text              ro code  0x000009f2   0x22  zero_init3.o [6]
+  .text              ro code  0x00000a14   0x1a  fpinit_M.o [5]
+  .text              ro code  0x00000a30   0x16  cmain.o [6]
+  .text              ro code  0x00000a46    0x4  low_level_init.o [3]
+  .text              ro code  0x00000a4a    0x4  exit.o [3]
+  .text              ro code  0x00000a50    0xa  cexit.o [6]
+  .text              ro code  0x00000a5c   0x14  exit.o [7]
+  .iar.init_table    const    0x00000a70   0x24  - Linker created -
+  .rodata            const    0x00000a94    0x0  zero_init3.o [6]
+  .rodata            const    0x00000a94    0x0  copy_init3.o [6]
+  Initializer bytes  ro data  0x00000a94   0x10  <for P2 s0>
+                            - 0x00000aa4  0x838
+
+"P2", part 1 of 3:                        0x400
+  P2 s0                       0x20000000   0x10  <Init block>
+    .data            inited   0x20000000   0x10  LedMatrix.o [1]
+                            - 0x20000010   0x10
+
+"P2", part 2 of 3:                        0x280
+  VTABLE             zero     0x20000400  0x26c  interrupt.o [4]
+  .bss               zero     0x2000066c    0xc  LedMatrix.o [1]
+  .bss               zero     0x20000678    0x4  lightSensor.o [1]
+  .bss               zero     0x2000067c    0x4  main.o [1]
+                            - 0x20000680  0x280
+
+"P2", part 3 of 3:                        0x200
+  .noinit            uninit   0x20000680  0x200  startup_ewarm.o [1]
+                            - 0x20000880  0x200
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x280:
+          0x20000400  0x280
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+          0x00000a94   0x10
+    1 destination range, total size 0x10:
+          0x20000000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+C:\Git\LM4F120\LightSensor\06.dbg\Obj: [1]
+    LedMatrix.o           268       16       28
+    lightSensor.o         168                 4
+    main.o                 88                 4
+    startup_ewarm.o        34      620      512
+    system.o               96
+    -------------------------------------------
+    Total:                654      636      548
+
+command line: [2]
+    -------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    memset.o               20
+    -------------------------------------------
+    Total:                 28
+
+driverlib-cm4f.a: [4]
+    adc.o                  68
+    cpu.o                   8
+    gpio.o                228
+    interrupt.o           172               620
+    sysctl.o              576
+    -------------------------------------------
+    Total:              1 052               620
+
+m7M_tlv.a: [5]
+    fpinit_M.o             26
+    -------------------------------------------
+    Total:                 26
+
+rt7M_tl.a: [6]
+    ABImemset.o           102
+    cexit.o                10
+    cmain.o                22
+    copy_init3.o           46
+    cstartup_M.o           12
+    data_init3.o           40
+    zero_init3.o           34
+    -------------------------------------------
+    Total:                266
+
+shb_l.a: [7]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6
+    Linker created                  36
+-----------------------------------------------
+    Grand Total:        2 052      672    1 168
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                  0x00000a31         Code  Gb  cmain.o [6]
+ADCIntRegister         0x000008a1   0x22  Code  Gb  adc.o [4]
+ADCSequenceDataGet     0x000008c3   0x1e  Code  Gb  adc.o [4]
+CPUcpsie               0x000007f1    0x8  Code  Gb  cpu.o [4]
+DIGI_FRONT             0x000005ac    0xc  Data  Gb  LedMatrix.o [1]
+FaultISR               0x000009e3    0x2  Code  Lc  startup_ewarm.o [1]
+GPIODirModeSet         0x000005b9   0x28  Code  Gb  gpio.o [4]
+GPIOPadConfigSet       0x000005e1   0x98  Code  Gb  gpio.o [4]
+GPIOPinTypeGPIOOutput  0x00000679    0xa  Code  Gb  gpio.o [4]
+GPIOPinTypeGPIOOutputOD
+                       0x00000683    0x8  Code  Gb  gpio.o [4]
+GetLightIntensity      0x0000087b    0xe  Code  Gb  lightSensor.o [1]
+IntDefaultHandler      0x000009e5    0x2  Code  Lc  startup_ewarm.o [1]
+IntEnable              0x00000775   0x58  Code  Gb  interrupt.o [4]
+IntMasterEnable        0x00000745    0xa  Code  Gb  interrupt.o [4]
+IntRegister            0x0000074f   0x26  Code  Gb  interrupt.o [4]
+LED_COM_PIN            0x20000000    0x8  Data  Gb  LedMatrix.o [1]
+LED_COM_PORT           0x20000008    0x8  Data  Gb  LedMatrix.o [1]
+LedControl             0x2000066c    0x4  Data  Gb  LedMatrix.o [1]
+LedInit                0x000004d7   0x28  Code  Gb  LedMatrix.o [1]
+LedProcess             0x00000551    0x2  Code  Gb  LedMatrix.o [1]
+LedSeg7Write           0x000004ad   0x2a  Code  Gb  LedMatrix.o [1]
+LightSensorInit        0x00000817   0x58  Code  Gb  lightSensor.o [1]
+LightSensorIntHandler  0x000007f9   0x1e  Code  Gb  lightSensor.o [1]
+LigthIntensityValue    0x20000678    0x4  Data  Gb  lightSensor.o [1]
+NmiSR                  0x000009e1    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base    0x00000a70          --   Gb  - Linker created -
+Region$$Table$$Limit   0x00000a94          --   Gb  - Linker created -
+ResetISR               0x000009c5   0x18  Code  Gb  startup_ewarm.o [1]
+Seg7                   0x000004ff   0x52  Code  Gb  LedMatrix.o [1]
+Seg7Ram                0x20000670    0x8  Data  Gb  LedMatrix.o [1]
+StartLightSensor       0x0000086f    0xc  Code  Gb  lightSensor.o [1]
+SysCtlClockGet         0x0000026d  0x1a0  Code  Gb  sysctl.o [4]
+SysTickHanlder         0x000008e5    0x4  Code  Gb  system.o [1]
+SystemInit             0x000008e9   0x20  Code  Gb  system.o [1]
+SystemTickInit         0x00000909   0x26  Code  Gb  system.o [1]
+TestSystick            0x00000945   0x30  Code  Gb  main.o [1]
+Timebase               0x2000067c    0x4  Data  Gb  main.o [1]
+Write7SegRam           0x00000553   0x42  Code  Gb  LedMatrix.o [1]
+__aeabi_memset         0x000006b1         Code  Gb  ABImemset.o [6]
+__cmain                0x00000a31         Code  Gb  cmain.o [6]
+__exit                 0x00000a5d   0x14  Code  Gb  exit.o [7]
+__iar_Memset           0x000006b1         Code  Gb  ABImemset.o [6]
+__iar_Memset_word      0x000006b9         Code  Gb  ABImemset.o [6]
+__iar_copy_init3       0x00000717   0x2e  Code  Gb  copy_init3.o [6]
+__iar_data_init3       0x0000099d   0x28  Code  Gb  data_init3.o [6]
+__iar_init_vfp         0x00000a15         Code  Gb  fpinit_M.o [5]
+__iar_program_start    0x000009e7         Code  Gb  cstartup_M.o [6]
+__iar_zero_init3       0x000009f3   0x22  Code  Gb  zero_init3.o [6]
+__low_level_init       0x00000a47    0x4  Code  Gb  low_level_init.o [3]
+__vector_table         0x00000000  0x26c  Data  Gb  startup_ewarm.o [1]
+_call_main             0x00000a3d         Code  Gb  cmain.o [6]
+_exit                  0x00000a51         Code  Gb  cexit.o [6]
+_main                  0x00000a43         Code  Gb  cmain.o [6]
+exit                   0x00000a4b    0x4  Code  Gb  exit.o [3]
+g_pfnRAMVectors        0x20000400  0x26c  Data  Lc  interrupt.o [4]
+g_pulEnRegs            0x000007dc   0x14  Data  Lc  interrupt.o [4]
+g_pulXtals             0x00000440   0x6c  Data  Lc  sysctl.o [4]
+main                   0x00000975   0x20  Code  Gb  main.o [1]
+memset                 0x0000069d   0x14  Code  Gb  memset.o [3]
+pulStack               0x20000680  0x200  Data  Lc  startup_ewarm.o [1]
+
+
+[1] = C:\Git\LM4F120\LightSensor\06.dbg\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = driverlib-cm4f.a
+[5] = m7M_tlv.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  2 052 bytes of readonly  code memory
+    672 bytes of readonly  data memory
+  1 168 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

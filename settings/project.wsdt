@@ -3,7 +3,7 @@
 <Workspace>
   <ConfigDictionary>
     
-  <CurrentConfigs><Project>driverlib-cm4f/Debug</Project><Project>LM4F120/Debug</Project></CurrentConfigs><CurrentProj>LM4F120</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <CurrentConfigs><Project>driverlib-cm4f/Debug</Project><Project>LightSensor/Debug</Project><Project>LM4F120/Debug</Project><Project>PWM_DEMO/Release</Project></CurrentConfigs><CurrentProj>LightSensor</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
@@ -12,9 +12,9 @@
           
           
           
-        <Column0>310</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>465</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
-    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1215</ColumnWidth1><ColumnWidth2>324</ColumnWidth2><ColumnWidth3>81</ColumnWidth3></Build></Static>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1215</ColumnWidth1><ColumnWidth2>324</ColumnWidth2><ColumnWidth3>81</ColumnWidth3></Build><TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1621</ColumnWidth1></Debug-Log></Static>
     <Windows>
       
     <Wnd2>
@@ -25,24 +25,24 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/LM4F120</ExpandedNode><ExpandedNode>&lt;ws&gt;/LM4F120/Libraries</ExpandedNode><ExpandedNode>&lt;ws&gt;/LM4F120/Source</ExpandedNode><ExpandedNode>LM4F120</ExpandedNode><ExpandedNode>driverlib-cm4f</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/LightSensor</ExpandedNode><ExpandedNode>&lt;ws&gt;/LightSensor/02.src</ExpandedNode><ExpandedNode>&lt;ws&gt;/LightSensor/03.lib</ExpandedNode><ExpandedNode>&lt;ws&gt;/LightSensor/04.start_up</ExpandedNode><ExpandedNode>&lt;ws&gt;/PWM_DEMO</ExpandedNode><ExpandedNode>&lt;ws&gt;/PWM_DEMO/02.src</ExpandedNode><ExpandedNode>&lt;ws&gt;/PWM_DEMO/03.lib</ExpandedNode><ExpandedNode>&lt;ws&gt;/PWM_DEMO/05.startup</ExpandedNode><ExpandedNode>&lt;ws&gt;/driverlib-cm4f</ExpandedNode><ExpandedNode>LM4F120</ExpandedNode><ExpandedNode>LM4F120/Output</ExpandedNode><ExpandedNode>LM4F120/Source</ExpandedNode><ExpandedNode>PWM_DEMO</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-9880-27496</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-9880-27496</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-28657-30773</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-6662-20319</Identity><TabName>Breakpoints</TabName><Factory>Breakpoints</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LM4F120\Source\main.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>824</SelStart><SelEnd>824</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LightSensor\02.src\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>31</YPos2><SelStart2>1950</SelStart2><SelEnd2>1950</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LightSensor\02.src\lightSensor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>16</YPos2><SelStart2>1124</SelStart2><SelEnd2>1124</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LightSensor\02.src\LedMatrix.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>75</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LightSensor\04.start_up\startup_ewarm.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>116</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LightSensor\02.src\system.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>1095</SelStart2><SelEnd2>1095</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-00c95e58><key>iaridepm.enu1</key></Toolbar-00c95e58></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>725</Bottom><Right>384</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>119048</sizeHorzCX><sizeHorzCY>206612</sizeHorzCY><sizeVertCX>229762</sizeVertCX><sizeVertCY>751033</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1682</Right><x>-2</x><y>-2</y><xscreen>1684</xscreen><yscreen>200</yscreen><sizeHorzCX>1002381</sizeHorzCX><sizeHorzCY>206612</sizeHorzCY><sizeVertCX>119048</sizeVertCX><sizeVertCY>206612</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-00e3fb70><key>iaridepm.enu1</key></Toolbar-00e3fb70></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>693</Bottom><Right>539</Right><x>-2</x><y>-2</y><xscreen>148</xscreen><yscreen>152</yscreen><sizeHorzCX>77083</sizeHorzCX><sizeHorzCY>152305</sizeHorzCY><sizeVertCX>281771</sizeVertCX><sizeVertCY>696393</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>260</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>262</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>262525</sizeHorzCY><sizeVertCX>77083</sizeVertCX><sizeVertCY>152305</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 

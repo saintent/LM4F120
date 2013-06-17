@@ -31,10 +31,41 @@ Enabled=0
 ShowSource=1
 [LMIFTDIDriver]
 LMI_ResetMode=0x00000000
+[DebugChecksum]
+Checksum=1597582238
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=unsigned long[3]	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
 [Disassemble mode]
 mode=0
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Source\main.cpp}.189.7" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\Source\main.cpp}.189.9" 1 0 0 0 "" 0 ""
+Count=2
 [Aliases]
-Count=0
-SuppressDialog=0
+A0=_ "C:\TI\driverlib\gpio.c" "C:\Git\LM4F120\driverlib\gpio.c"
+A1=_ "C:\TI\driverlib\sysctl.c" "C:\Git\LM4F120\driverlib\sysctl.c"
+A2=_ "C:\TI\utils\uartstdio.c" ""
+Count=3
+SuppressDialog=1

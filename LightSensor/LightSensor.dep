@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>700023572</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_nvic.h</file>
+      <file>$PROJ_DIR$\..\driverlib\systick.h</file>
+      <file>$PROJ_DIR$\..\driverlib\adc.h</file>
+      <file>$PROJ_DIR$\06.dbg\List\cpp.map</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F120H5QR.icf</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\LedMatrix.pbi</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\LedMatrix.o</file>
+      <file>$PROJ_DIR$\..\inc\lm4f120h5qr.h</file>
+      <file>$PROJ_DIR$\01.inc\ledMatrix.h</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\startup_ewarm.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\LightSensor.pbd</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\06.dbg\Exe\cpp.out</file>
+      <file>$PROJ_DIR$\02.src\LedMatrix.c</file>
+      <file>$PROJ_DIR$\02.src\main.c</file>
+      <file>$PROJ_DIR$\02.src\lightSensor.c</file>
+      <file>$PROJ_DIR$\02.src\system.c</file>
+      <file>$PROJ_DIR$\03.lib\driverlib-cm4f.a</file>
+      <file>$PROJ_DIR$\04.start_up\startup_ewarm.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\01.inc\system.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\driverlib\sysctl.h</file>
+      <file>$PROJ_DIR$\..\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\..\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\01.inc\lightsensor.h</file>
+      <file>$PROJ_DIR$\..\driverlib\interrupt.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\driverlib\pin_map.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_memmap.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\system.o</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\system.pbi</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\lightSensor.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\06.dbg\Obj\lightSensor.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\06.dbg\Exe\cpp.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 6 25 8 47 5 14 43 17 19 18 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 20 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\02.src\LedMatrix.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 10 27 37 42 38 30 39 46 36 29 41 0 40 33 31 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 10 27 37 42 38 30 39 46 36 29 41 0 40 33 31 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\02.src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 37 42 38 30 39 46 36 12 27 9 0 35 29 41 40 33 31 34 32 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 37 42 38 30 39 46 36 12 27 9 0 35 29 41 40 33 31 34 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\02.src\lightSensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 37 42 38 30 39 46 36 0 3 32 40 29 9 41 33 31 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 37 42 38 30 39 46 36 0 3 32 40 29 9 41 33 31 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\02.src\system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 0 31 33 29 9 40 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 0 31 33 29 9 40 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\04.start_up\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 0</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

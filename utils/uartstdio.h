@@ -35,7 +35,6 @@
 extern "C"
 {
 #endif
-
 //*****************************************************************************
 //
 // If built for buffered operation, the following labels define the sizes of
