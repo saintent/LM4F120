@@ -12,6 +12,7 @@
 #include "hw_types.h"
 #include "adc.h"
 #include "gpio.h"
+#include "flash.h"
 //================ Include User App =========================================//
 #include "system.h"
 #include "lightsensor.h"
@@ -26,7 +27,11 @@
 //
 //================ PRIVATE DATA =============================================//
 // non extern data
-uint32_t LigthIntensityValue = 0;
+uint16_t IntensityMin;
+uint16_t IntensityMax;
+uint16_t IntenDiff;
+uint32_t LightIntensityValue = 0;
+//uint8_t  LightIntensity = 0;
 
 //================ PRIVATE DEFINE ===========================================//
 //
@@ -37,7 +42,13 @@ void LightSensorIntHandler(void) {
 	//
 	// Get ADC Data
 	//
-	ADCSequenceDataGet(ADC0_BASE, 3, &(LigthIntensityValue));
+	ADCSequenceDataGet(ADC0_BASE, 3, &(LightIntensityValue));
+	if(LightIntensityValue < IntensityMin ) {
+		LightIntensityValue = IntensityMin;
+	}
+	else if(LightIntensityValue > IntensityMax) {
+		LightIntensityValue = IntensityMax;
+	}
 
 	//
 	// Clear the ADC interrupt flag.
@@ -61,6 +72,13 @@ void LightSensorInit(void) {
 	ROM_ADCIntClear(ADC0_BASE, 3);
 
 	ADCIntRegister(ADC0_BASE, 3, LightSensorIntHandler);
+
+	IntensityMax = 4096;
+	IntenDiff = 4096;
+	IntensityMin = 0;
+	
+
+
 }
 
 void StartLightSensor(void) {
@@ -76,9 +94,40 @@ void StartLightSensor(void) {
 //*****************************************************************************
 void GetLightIntensity(uint8_t* Data) {
 	uint8_t temp;
-	temp = (uint8_t)((LigthIntensityValue*100)/4096);
-	Data[0] = temp;
+	uint16_t rawData;
+
+	if (IntenDiff != 0) {
+		rawData = LightIntensityValue - IntensityMin;
+		temp = (uint8_t) ((rawData * 100) / IntenDiff);
+		if(temp >= 100) {
+			temp = 99;
+		}
+		else {
+			Data[0] = temp;
+		}
+
+	}
+	else {
+		Data[0] = 0;
+	}
 	//return temp;
+}
+
+void CalibrateIntensity(uint8_t type, uint8_t rst) {
+	if(!rst) {
+		if (type == LIGHT_LO_CAL) {
+			IntensityMin = LightIntensityValue;
+		}
+		else {
+			IntensityMax = LightIntensityValue;
+		}
+		IntenDiff = IntensityMax - IntensityMin;
+	}
+	else {
+		IntensityMax = 4096;
+		IntenDiff = 4096;
+		IntensityMin = 0;
+	}
 }
 
 //================ END OF FILE ==============================================//

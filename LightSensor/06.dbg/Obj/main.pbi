@@ -7574,68 +7574,18 @@
 <L>C:\Git\LM4F120\driverlib\sysctl.h:572:9: macro definition=SYSCTL_DSLP_OSC_INT30 <US>c:macro@SYSCTL_DSLP_OSC_INT30<UE> <DS>SYSCTL_DSLP_OSC_INT30<DE> Extent=<ES>572:9 - 572:43<EE>
 <L>C:\Git\LM4F120\driverlib\sysctl.h:573:9: macro definition=SYSCTL_DSLP_OSC_EXT32 <US>c:macro@SYSCTL_DSLP_OSC_EXT32<UE> <DS>SYSCTL_DSLP_OSC_EXT32<DE> Extent=<ES>573:9 - 573:43<EE>
 <L>C:\Git\LM4F120\driverlib\sysctl.h:574:9: macro definition=SYSCTL_DSLP_PIOSC_PD <US>c:macro@SYSCTL_DSLP_PIOSC_PD<UE> <DS>SYSCTL_DSLP_PIOSC_PD<DE> Extent=<ES>574:9 - 574:43<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:18:1: inclusion directive=lightsensor.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h<IE>  [multi-include guarded] Extent=<ES>18:1 - 18:25<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:7:9: macro definition=LIGHTSENSOR_H <US>c:macro@LIGHTSENSOR_H<UE> <DS>LIGHTSENSOR_H<DE> Extent=<ES>7:9 - 7:22<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:12:1: inclusion directive=gpio.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\driverlib\gpio.h<IE>  [multi-include guarded] Extent=<ES>12:1 - 12:18<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:41:9: macro definition=__GPIO_H__ <US>c:macro@__GPIO_H__<UE> <DS>__GPIO_H__<DE> Extent=<ES>41:9 - 41:19<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:60:9: macro definition=GPIO_PIN_0 <US>c:macro@GPIO_PIN_0<UE> <DS>GPIO_PIN_0<DE> Extent=<ES>60:9 - 60:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:61:9: macro definition=GPIO_PIN_1 <US>c:macro@GPIO_PIN_1<UE> <DS>GPIO_PIN_1<DE> Extent=<ES>61:9 - 61:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:62:9: macro definition=GPIO_PIN_2 <US>c:macro@GPIO_PIN_2<UE> <DS>GPIO_PIN_2<DE> Extent=<ES>62:9 - 62:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:63:9: macro definition=GPIO_PIN_3 <US>c:macro@GPIO_PIN_3<UE> <DS>GPIO_PIN_3<DE> Extent=<ES>63:9 - 63:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:64:9: macro definition=GPIO_PIN_4 <US>c:macro@GPIO_PIN_4<UE> <DS>GPIO_PIN_4<DE> Extent=<ES>64:9 - 64:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:65:9: macro definition=GPIO_PIN_5 <US>c:macro@GPIO_PIN_5<UE> <DS>GPIO_PIN_5<DE> Extent=<ES>65:9 - 65:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:66:9: macro definition=GPIO_PIN_6 <US>c:macro@GPIO_PIN_6<UE> <DS>GPIO_PIN_6<DE> Extent=<ES>66:9 - 66:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:67:9: macro definition=GPIO_PIN_7 <US>c:macro@GPIO_PIN_7<UE> <DS>GPIO_PIN_7<DE> Extent=<ES>67:9 - 67:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:75:9: macro definition=GPIO_DIR_MODE_IN <US>c:macro@GPIO_DIR_MODE_IN<UE> <DS>GPIO_DIR_MODE_IN<DE> Extent=<ES>75:9 - 75:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:76:9: macro definition=GPIO_DIR_MODE_OUT <US>c:macro@GPIO_DIR_MODE_OUT<UE> <DS>GPIO_DIR_MODE_OUT<DE> Extent=<ES>76:9 - 76:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:77:9: macro definition=GPIO_DIR_MODE_HW <US>c:macro@GPIO_DIR_MODE_HW<UE> <DS>GPIO_DIR_MODE_HW<DE> Extent=<ES>77:9 - 77:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:85:9: macro definition=GPIO_FALLING_EDGE <US>c:macro@GPIO_FALLING_EDGE<UE> <DS>GPIO_FALLING_EDGE<DE> Extent=<ES>85:9 - 85:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:86:9: macro definition=GPIO_RISING_EDGE <US>c:macro@GPIO_RISING_EDGE<UE> <DS>GPIO_RISING_EDGE<DE> Extent=<ES>86:9 - 86:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:87:9: macro definition=GPIO_BOTH_EDGES <US>c:macro@GPIO_BOTH_EDGES<UE> <DS>GPIO_BOTH_EDGES<DE> Extent=<ES>87:9 - 87:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:88:9: macro definition=GPIO_LOW_LEVEL <US>c:macro@GPIO_LOW_LEVEL<UE> <DS>GPIO_LOW_LEVEL<DE> Extent=<ES>88:9 - 88:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:89:9: macro definition=GPIO_HIGH_LEVEL <US>c:macro@GPIO_HIGH_LEVEL<UE> <DS>GPIO_HIGH_LEVEL<DE> Extent=<ES>89:9 - 89:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:90:9: macro definition=GPIO_DISCRETE_INT <US>c:macro@GPIO_DISCRETE_INT<UE> <DS>GPIO_DISCRETE_INT<DE> Extent=<ES>90:9 - 90:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:98:9: macro definition=GPIO_STRENGTH_2MA <US>c:macro@GPIO_STRENGTH_2MA<UE> <DS>GPIO_STRENGTH_2MA<DE> Extent=<ES>98:9 - 98:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:99:9: macro definition=GPIO_STRENGTH_4MA <US>c:macro@GPIO_STRENGTH_4MA<UE> <DS>GPIO_STRENGTH_4MA<DE> Extent=<ES>99:9 - 99:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:100:9: macro definition=GPIO_STRENGTH_8MA <US>c:macro@GPIO_STRENGTH_8MA<UE> <DS>GPIO_STRENGTH_8MA<DE> Extent=<ES>100:9 - 100:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:101:9: macro definition=GPIO_STRENGTH_8MA_SC <US>c:macro@GPIO_STRENGTH_8MA_SC<UE> <DS>GPIO_STRENGTH_8MA_SC<DE> Extent=<ES>101:9 - 101:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:110:9: macro definition=GPIO_PIN_TYPE_STD <US>c:macro@GPIO_PIN_TYPE_STD<UE> <DS>GPIO_PIN_TYPE_STD<DE> Extent=<ES>110:9 - 110:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:111:9: macro definition=GPIO_PIN_TYPE_STD_WPU <US>c:macro@GPIO_PIN_TYPE_STD_WPU<UE> <DS>GPIO_PIN_TYPE_STD_WPU<DE> Extent=<ES>111:9 - 111:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:112:9: macro definition=GPIO_PIN_TYPE_STD_WPD <US>c:macro@GPIO_PIN_TYPE_STD_WPD<UE> <DS>GPIO_PIN_TYPE_STD_WPD<DE> Extent=<ES>112:9 - 112:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:113:9: macro definition=GPIO_PIN_TYPE_OD <US>c:macro@GPIO_PIN_TYPE_OD<UE> <DS>GPIO_PIN_TYPE_OD<DE> Extent=<ES>113:9 - 113:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:114:9: macro definition=GPIO_PIN_TYPE_OD_WPU <US>c:macro@GPIO_PIN_TYPE_OD_WPU<UE> <DS>GPIO_PIN_TYPE_OD_WPU<DE> Extent=<ES>114:9 - 114:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:115:9: macro definition=GPIO_PIN_TYPE_OD_WPD <US>c:macro@GPIO_PIN_TYPE_OD_WPD<UE> <DS>GPIO_PIN_TYPE_OD_WPD<DE> Extent=<ES>115:9 - 115:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:116:9: macro definition=GPIO_PIN_TYPE_ANALOG <US>c:macro@GPIO_PIN_TYPE_ANALOG<UE> <DS>GPIO_PIN_TYPE_ANALOG<DE> Extent=<ES>116:9 - 116:43<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:187:1: inclusion directive=pin_map.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\driverlib\pin_map.h<IE>  [multi-include guarded] Extent=<ES>187:1 - 187:21<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:14:1: inclusion directive=system.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\system.h<IE>  [multi-include guarded] Extent=<ES>14:1 - 14:20<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:16:9: macro definition=LIGHTSENSOR_PORT <US>c:macro@LIGHTSENSOR_PORT<UE> <DS>LIGHTSENSOR_PORT<DE> Extent=<ES>16:9 - 16:42<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:17:9: macro definition=LIGHTSENSOR_PIN <US>c:macro@LIGHTSENSOR_PIN<UE> <DS>LIGHTSENSOR_PIN<DE> Extent=<ES>17:9 - 17:37<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:19:1: inclusion directive=ledMatrix.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h<IE>  [multi-include guarded] Extent=<ES>19:1 - 19:23<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:7:9: macro definition=LEDMATRIX_H <US>c:macro@LEDMATRIX_H<UE> <DS>LEDMATRIX_H<DE> Extent=<ES>7:9 - 7:20<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:10:9: macro definition=TI <US>c:macro@TI<UE> <DS>TI<DE> Extent=<ES>10:9 - 10:11<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:12:1: inclusion directive=stdint.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h<IE>  Extent=<ES>12:1 - 12:20<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:16:1: inclusion directive=system.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\system.h<IE>  [multi-include guarded] Extent=<ES>16:1 - 16:20<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:17:1: inclusion directive=gpio.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\driverlib\gpio.h<IE>  [multi-include guarded] Extent=<ES>17:1 - 17:18<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:32:9: macro definition=SEG_A <US>c:macro@SEG_A<UE> <DS>SEG_A<DE> Extent=<ES>32:9 - 32:17<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:33:9: macro definition=SEG_B <US>c:macro@SEG_B<UE> <DS>SEG_B<DE> Extent=<ES>33:9 - 33:17<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:34:9: macro definition=SEG_C <US>c:macro@SEG_C<UE> <DS>SEG_C<DE> Extent=<ES>34:9 - 34:17<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:35:9: macro definition=SEG_D <US>c:macro@SEG_D<UE> <DS>SEG_D<DE> Extent=<ES>35:9 - 35:17<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:36:9: macro definition=SEG_E <US>c:macro@SEG_E<UE> <DS>SEG_E<DE> Extent=<ES>36:9 - 36:18<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:37:9: macro definition=SEG_F <US>c:macro@SEG_F<UE> <DS>SEG_F<DE> Extent=<ES>37:9 - 37:18<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:38:9: macro definition=SEG_G <US>c:macro@SEG_G<UE> <DS>SEG_G<DE> Extent=<ES>38:9 - 38:18<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:39:9: macro definition=SEG_DP <US>c:macro@SEG_DP<UE> <DS>SEG_DP<DE> Extent=<ES>39:9 - 39:20<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:41:9: macro definition=FRONT_0 <US>c:macro@FRONT_0<UE> <DS>FRONT_0<DE> Extent=<ES>41:9 - 41:62<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:42:9: macro definition=FRONT_1 <US>c:macro@FRONT_1<UE> <DS>FRONT_1<DE> Extent=<ES>42:9 - 42:31<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:43:9: macro definition=FRONT_2 <US>c:macro@FRONT_2<UE> <DS>FRONT_2<DE> Extent=<ES>43:9 - 43:55<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:44:9: macro definition=FRONT_3 <US>c:macro@FRONT_3<UE> <DS>FRONT_3<DE> Extent=<ES>44:9 - 44:55<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:45:9: macro definition=FRONT_4 <US>c:macro@FRONT_4<UE> <DS>FRONT_4<DE> Extent=<ES>45:9 - 45:47<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:46:9: macro definition=FRONT_5 <US>c:macro@FRONT_5<UE> <DS>FRONT_5<DE> Extent=<ES>46:9 - 46:55<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:47:9: macro definition=FRONT_6 <US>c:macro@FRONT_6<UE> <DS>FRONT_6<DE> Extent=<ES>47:9 - 47:63<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:48:9: macro definition=FRONT_7 <US>c:macro@FRONT_7<UE> <DS>FRONT_7<DE> Extent=<ES>48:9 - 48:39<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:49:9: macro definition=FRONT_8 <US>c:macro@FRONT_8<UE> <DS>FRONT_8<DE> Extent=<ES>49:9 - 49:71<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:50:9: macro definition=FRONT_9 <US>c:macro@FRONT_9<UE> <DS>FRONT_9<DE> Extent=<ES>50:9 - 50:63<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:24: macro expansion=GPIO_PORTF_BASE|C:\Git\LM4F120\inc\hw_memmap.h:78:9 <US>c:macro@GPIO_PORTF_BASE<UE> <DS>GPIO_PORTF_BASE<DE> Extent=<ES>69:24 - 69:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:41: macro expansion=GPIO_PIN_2|C:\Git\LM4F120\driverlib\gpio.h:62:9 <US>c:macro@GPIO_PIN_2<UE> <DS>GPIO_PIN_2<DE> Extent=<ES>69:41 - 69:51<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:18:1: inclusion directive=lightsensor.h <US><UE> <DS><DE> <IS><invalid loc><IE>  Extent=<ES>18:1 - 18:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:19:1: inclusion directive=ledMatrix.h <US><UE> <DS><DE> <IS><invalid loc><IE>  Extent=<ES>19:1 - 19:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:20:1: inclusion directive=buttons.h <US><UE> <DS><DE> <IS><invalid loc><IE>  Extent=<ES>20:1 - 20:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:34:9: macro definition=BUTTON_POLL_TIME <US>c:macro@BUTTON_POLL_TIME<UE> <DS>BUTTON_POLL_TIME<DE> Extent=<ES>34:9 - 34:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:53:24: macro expansion=BUTTON_POLL_TIME|C:\Git\LM4F120\LightSensor\02.src\main.c:34:9 <US>c:macro@BUTTON_POLL_TIME<UE> <DS>BUTTON_POLL_TIME<DE> Extent=<ES>53:24 - 53:40<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:54:38: macro expansion=false|C:\Git\LM4F120\inc\hw_types.h:55:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>54:38 - 54:43<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:58:24: macro expansion=BUTTON_POLL_TIME|C:\Git\LM4F120\LightSensor\02.src\main.c:34:9 <US>c:macro@BUTTON_POLL_TIME<UE> <DS>BUTTON_POLL_TIME<DE> Extent=<ES>58:24 - 58:40<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:59:38: macro expansion=false|C:\Git\LM4F120\inc\hw_types.h:55:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>59:38 - 59:43<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:63:24: macro expansion=BUTTON_POLL_TIME|C:\Git\LM4F120\LightSensor\02.src\main.c:34:9 <US>c:macro@BUTTON_POLL_TIME<UE> <DS>BUTTON_POLL_TIME<DE> Extent=<ES>63:24 - 63:40<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:64:38: macro expansion=true|C:\Git\LM4F120\inc\hw_types.h:51:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>64:38 - 64:42<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:68:20: macro expansion=BUTTON_POLL_TIME|C:\Git\LM4F120\LightSensor\02.src\main.c:34:9 <US>c:macro@BUTTON_POLL_TIME<UE> <DS>BUTTON_POLL_TIME<DE> Extent=<ES>68:20 - 68:36<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:100:24: macro expansion=GPIO_PORTF_BASE|C:\Git\LM4F120\inc\hw_memmap.h:78:9 <US>c:macro@GPIO_PORTF_BASE<UE> <DS>GPIO_PORTF_BASE<DE> Extent=<ES>100:24 - 100:39<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:66:11: StructDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:66:11 (Definition) <US>c:@SA@_VA_LIST<UE> <DS><DE> Extent=<ES>66:11 - 69:4<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:68:11: FieldDecl=_Ap|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:68:11 (Definition) <US>c:@SA@_VA_LIST@FI@_Ap<UE> <DS>_Ap<DE> Extent=<ES>68:5 - 68:14<EE>
@@ -8335,276 +8285,101 @@
 <L>C:\Git\LM4F120\driverlib\sysctl.h:631:53: ParmDecl=ulMClk|C:\Git\LM4F120\driverlib\sysctl.h:631:53 (Definition) <US>c:sysctl.h@38646@F@SysCtlI2SMClkSet@ulMClk<UE> <DS>unsigned long<DE> Extent=<ES>631:39 - 631:59<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\system.h:29:14: TypedefDecl=SystickCallBack_t|C:\Git\LM4F120\LightSensor\01.inc\system.h:29:14 (Definition) <US>c:system.h@1044@T@SystickCallBack_t<UE> <DS>void (void)<DE> Extent=<ES>29:1 - 29:37<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6: FunctionDecl=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 (Declaration) <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>33:1 - 33:26<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:123:13: FunctionDecl=GPIODirModeSet|C:\Git\LM4F120\driverlib\gpio.h:123:13 (Declaration) <US>c:@F@GPIODirModeSet<UE> <DS>void GPIODirModeSet(unsigned long, unsigned char, unsigned long)<DE> Extent=<ES>123:1 - 124:50<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:123:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:123:42 (Definition) <US>c:gpio.h@5949@F@GPIODirModeSet@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>123:28 - 123:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:123:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:123:64 (Definition) <US>c:gpio.h@5971@F@GPIODirModeSet@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>123:50 - 123:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:124:42: ParmDecl=ulPinIO|C:\Git\LM4F120\driverlib\gpio.h:124:42 (Definition) <US>c:gpio.h@6021@F@GPIODirModeSet@ulPinIO<UE> <DS>unsigned long<DE> Extent=<ES>124:28 - 124:49<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:125:22: FunctionDecl=GPIODirModeGet|C:\Git\LM4F120\driverlib\gpio.h:125:22 (Declaration) <US>c:@F@GPIODirModeGet<UE> <DS>unsigned long GPIODirModeGet(unsigned long, unsigned char)<DE> Extent=<ES>125:1 - 125:79<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:125:51: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:125:51 (Definition) <US>c:gpio.h@6082@F@GPIODirModeGet@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>125:37 - 125:57<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:125:73: ParmDecl=ucPin|C:\Git\LM4F120\driverlib\gpio.h:125:73 (Definition) <US>c:gpio.h@6104@F@GPIODirModeGet@ucPin<UE> <DS>unsigned char<DE> Extent=<ES>125:59 - 125:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:126:13: FunctionDecl=GPIOIntTypeSet|C:\Git\LM4F120\driverlib\gpio.h:126:13 (Declaration) <US>c:@F@GPIOIntTypeSet<UE> <DS>void GPIOIntTypeSet(unsigned long, unsigned char, unsigned long)<DE> Extent=<ES>126:1 - 127:52<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:126:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:126:42 (Definition) <US>c:gpio.h@6154@F@GPIOIntTypeSet@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>126:28 - 126:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:126:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:126:64 (Definition) <US>c:gpio.h@6176@F@GPIOIntTypeSet@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>126:50 - 126:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:127:42: ParmDecl=ulIntType|C:\Git\LM4F120\driverlib\gpio.h:127:42 (Definition) <US>c:gpio.h@6226@F@GPIOIntTypeSet@ulIntType<UE> <DS>unsigned long<DE> Extent=<ES>127:28 - 127:51<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:128:22: FunctionDecl=GPIOIntTypeGet|C:\Git\LM4F120\driverlib\gpio.h:128:22 (Declaration) <US>c:@F@GPIOIntTypeGet<UE> <DS>unsigned long GPIOIntTypeGet(unsigned long, unsigned char)<DE> Extent=<ES>128:1 - 128:79<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:128:51: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:128:51 (Definition) <US>c:gpio.h@6289@F@GPIOIntTypeGet@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>128:37 - 128:57<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:128:73: ParmDecl=ucPin|C:\Git\LM4F120\driverlib\gpio.h:128:73 (Definition) <US>c:gpio.h@6311@F@GPIOIntTypeGet@ucPin<UE> <DS>unsigned char<DE> Extent=<ES>128:59 - 128:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:129:13: FunctionDecl=GPIOPadConfigSet|C:\Git\LM4F120\driverlib\gpio.h:129:13 (Declaration) <US>c:@F@GPIOPadConfigSet<UE> <DS>void GPIOPadConfigSet(unsigned long, unsigned char, unsigned long, unsigned long)<DE> Extent=<ES>129:1 - 131:54<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:129:44: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:129:44 (Definition) <US>c:gpio.h@6363@F@GPIOPadConfigSet@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>129:30 - 129:50<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:129:66: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:129:66 (Definition) <US>c:gpio.h@6385@F@GPIOPadConfigSet@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>129:52 - 129:72<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:130:44: ParmDecl=ulStrength|C:\Git\LM4F120\driverlib\gpio.h:130:44 (Definition) <US>c:gpio.h@6437@F@GPIOPadConfigSet@ulStrength<UE> <DS>unsigned long<DE> Extent=<ES>130:30 - 130:54<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:131:44: ParmDecl=ulPadType|C:\Git\LM4F120\driverlib\gpio.h:131:44 (Definition) <US>c:gpio.h@6493@F@GPIOPadConfigSet@ulPadType<UE> <DS>unsigned long<DE> Extent=<ES>131:30 - 131:53<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:132:13: FunctionDecl=GPIOPadConfigGet|C:\Git\LM4F120\driverlib\gpio.h:132:13 (Declaration) <US>c:@F@GPIOPadConfigGet<UE> <DS>void GPIOPadConfigGet(unsigned long, unsigned char, unsigned long *, unsigned long *)<DE> Extent=<ES>132:1 - 134:56<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:132:44: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:132:44 (Definition) <US>c:gpio.h@6549@F@GPIOPadConfigGet@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>132:30 - 132:50<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:132:66: ParmDecl=ucPin|C:\Git\LM4F120\driverlib\gpio.h:132:66 (Definition) <US>c:gpio.h@6571@F@GPIOPadConfigGet@ucPin<UE> <DS>unsigned char<DE> Extent=<ES>132:52 - 132:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:133:45: ParmDecl=pulStrength|C:\Git\LM4F120\driverlib\gpio.h:133:45 (Definition) <US>c:gpio.h@6622@F@GPIOPadConfigGet@pulStrength<UE> <DS>unsigned long *<DE> Extent=<ES>133:30 - 133:56<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:134:45: ParmDecl=pulPadType|C:\Git\LM4F120\driverlib\gpio.h:134:45 (Definition) <US>c:gpio.h@6680@F@GPIOPadConfigGet@pulPadType<UE> <DS>unsigned long *<DE> Extent=<ES>134:30 - 134:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:135:13: FunctionDecl=GPIOPinIntEnable|C:\Git\LM4F120\driverlib\gpio.h:135:13 (Declaration) <US>c:@F@GPIOPinIntEnable<UE> <DS>void GPIOPinIntEnable(unsigned long, unsigned char)<DE> Extent=<ES>135:1 - 135:73<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:135:44: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:135:44 (Definition) <US>c:gpio.h@6738@F@GPIOPinIntEnable@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>135:30 - 135:50<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:135:66: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:135:66 (Definition) <US>c:gpio.h@6760@F@GPIOPinIntEnable@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>135:52 - 135:72<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:136:13: FunctionDecl=GPIOPinIntDisable|C:\Git\LM4F120\driverlib\gpio.h:136:13 (Declaration) <US>c:@F@GPIOPinIntDisable<UE> <DS>void GPIOPinIntDisable(unsigned long, unsigned char)<DE> Extent=<ES>136:1 - 136:74<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:136:45: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:136:45 (Definition) <US>c:gpio.h@6814@F@GPIOPinIntDisable@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>136:31 - 136:51<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:136:67: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:136:67 (Definition) <US>c:gpio.h@6836@F@GPIOPinIntDisable@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>136:53 - 136:73<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:137:13: FunctionDecl=GPIOPinIntStatus|C:\Git\LM4F120\driverlib\gpio.h:137:13 (Declaration) <US>c:@F@GPIOPinIntStatus<UE> <DS>long GPIOPinIntStatus(unsigned long, tBoolean)<DE> Extent=<ES>137:1 - 137:69<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:137:44: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:137:44 (Definition) <US>c:gpio.h@6889@F@GPIOPinIntStatus@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>137:30 - 137:50<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:137:61: ParmDecl=bMasked|C:\Git\LM4F120\driverlib\gpio.h:137:61 (Definition) <US>c:gpio.h@6911@F@GPIOPinIntStatus@bMasked<UE> <DS>tBoolean<DE> Extent=<ES>137:52 - 137:68<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:137:52: TypeRef=tBoolean|C:\Git\LM4F120\inc\hw_types.h:48:23 (Reference) <US>c:hw_types.h@2262@T@tBoolean<UE> <DS>unsigned char<DE> Extent=<ES>137:52 - 137:60<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:138:13: FunctionDecl=GPIOPinIntClear|C:\Git\LM4F120\driverlib\gpio.h:138:13 (Declaration) <US>c:@F@GPIOPinIntClear<UE> <DS>void GPIOPinIntClear(unsigned long, unsigned char)<DE> Extent=<ES>138:1 - 138:72<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:138:43: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:138:43 (Definition) <US>c:gpio.h@6959@F@GPIOPinIntClear@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>138:29 - 138:49<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:138:65: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:138:65 (Definition) <US>c:gpio.h@6981@F@GPIOPinIntClear@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>138:51 - 138:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:139:13: FunctionDecl=GPIOPortIntRegister|C:\Git\LM4F120\driverlib\gpio.h:139:13 (Declaration) <US>c:@F@GPIOPortIntRegister<UE> <DS>void GPIOPortIntRegister(unsigned long, void (*)(void))<DE> Extent=<ES>139:1 - 140:61<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:139:47: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:139:47 (Definition) <US>c:gpio.h@7037@F@GPIOPortIntRegister@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>139:33 - 139:53<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:140:40: ParmDecl=pfnIntHandler|C:\Git\LM4F120\driverlib\gpio.h:140:40 (Definition) <US>c:gpio.h@7092@F@GPIOPortIntRegister@pfnIntHandler<UE> <DS>void (*)(void)<DE> Extent=<ES>140:33 - 140:60<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:141:13: FunctionDecl=GPIOPortIntUnregister|C:\Git\LM4F120\driverlib\gpio.h:141:13 (Declaration) <US>c:@F@GPIOPortIntUnregister<UE> <DS>void GPIOPortIntUnregister(unsigned long)<DE> Extent=<ES>141:1 - 141:56<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:141:49: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:141:49 (Definition) <US>c:gpio.h@7157@F@GPIOPortIntUnregister@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>141:35 - 141:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:142:13: FunctionDecl=GPIOPinRead|C:\Git\LM4F120\driverlib\gpio.h:142:13 (Declaration) <US>c:@F@GPIOPinRead<UE> <DS>long GPIOPinRead(unsigned long, unsigned char)<DE> Extent=<ES>142:1 - 142:68<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:142:39: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:142:39 (Definition) <US>c:gpio.h@7205@F@GPIOPinRead@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>142:25 - 142:45<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:142:61: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:142:61 (Definition) <US>c:gpio.h@7227@F@GPIOPinRead@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>142:47 - 142:67<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:143:13: FunctionDecl=GPIOPinWrite|C:\Git\LM4F120\driverlib\gpio.h:143:13 (Declaration) <US>c:@F@GPIOPinWrite<UE> <DS>void GPIOPinWrite(unsigned long, unsigned char, unsigned char)<DE> Extent=<ES>143:1 - 144:46<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:143:40: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:143:40 (Definition) <US>c:gpio.h@7276@F@GPIOPinWrite@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>143:26 - 143:46<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:143:62: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:143:62 (Definition) <US>c:gpio.h@7298@F@GPIOPinWrite@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>143:48 - 143:68<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:144:40: ParmDecl=ucVal|C:\Git\LM4F120\driverlib\gpio.h:144:40 (Definition) <US>c:gpio.h@7346@F@GPIOPinWrite@ucVal<UE> <DS>unsigned char<DE> Extent=<ES>144:26 - 144:45<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:145:13: FunctionDecl=GPIOPinConfigure|C:\Git\LM4F120\driverlib\gpio.h:145:13 (Declaration) <US>c:@F@GPIOPinConfigure<UE> <DS>void GPIOPinConfigure(unsigned long)<DE> Extent=<ES>145:1 - 145:56<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:145:44: ParmDecl=ulPinConfig|C:\Git\LM4F120\driverlib\gpio.h:145:44 (Definition) <US>c:gpio.h@7398@F@GPIOPinConfigure@ulPinConfig<UE> <DS>unsigned long<DE> Extent=<ES>145:30 - 145:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:146:13: FunctionDecl=GPIOPinTypeADC|C:\Git\LM4F120\driverlib\gpio.h:146:13 (Declaration) <US>c:@F@GPIOPinTypeADC<UE> <DS>void GPIOPinTypeADC(unsigned long, unsigned char)<DE> Extent=<ES>146:1 - 146:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:146:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:146:42 (Definition) <US>c:gpio.h@7454@F@GPIOPinTypeADC@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>146:28 - 146:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:146:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:146:64 (Definition) <US>c:gpio.h@7476@F@GPIOPinTypeADC@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>146:50 - 146:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:147:13: FunctionDecl=GPIOPinTypeCAN|C:\Git\LM4F120\driverlib\gpio.h:147:13 (Declaration) <US>c:@F@GPIOPinTypeCAN<UE> <DS>void GPIOPinTypeCAN(unsigned long, unsigned char)<DE> Extent=<ES>147:1 - 147:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:147:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:147:42 (Definition) <US>c:gpio.h@7527@F@GPIOPinTypeCAN@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>147:28 - 147:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:147:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:147:64 (Definition) <US>c:gpio.h@7549@F@GPIOPinTypeCAN@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>147:50 - 147:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:148:13: FunctionDecl=GPIOPinTypeComparator|C:\Git\LM4F120\driverlib\gpio.h:148:13 (Declaration) <US>c:@F@GPIOPinTypeComparator<UE> <DS>void GPIOPinTypeComparator(unsigned long, unsigned char)<DE> Extent=<ES>148:1 - 148:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:148:49: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:148:49 (Definition) <US>c:gpio.h@7607@F@GPIOPinTypeComparator@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>148:35 - 148:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:148:71: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:148:71 (Definition) <US>c:gpio.h@7629@F@GPIOPinTypeComparator@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>148:57 - 148:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:149:13: FunctionDecl=GPIOPinTypeEPI|C:\Git\LM4F120\driverlib\gpio.h:149:13 (Declaration) <US>c:@F@GPIOPinTypeEPI<UE> <DS>void GPIOPinTypeEPI(unsigned long, unsigned char)<DE> Extent=<ES>149:1 - 149:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:149:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:149:42 (Definition) <US>c:gpio.h@7680@F@GPIOPinTypeEPI@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>149:28 - 149:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:149:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:149:64 (Definition) <US>c:gpio.h@7702@F@GPIOPinTypeEPI@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>149:50 - 149:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:150:13: FunctionDecl=GPIOPinTypeEthernetLED|C:\Git\LM4F120\driverlib\gpio.h:150:13 (Declaration) <US>c:@F@GPIOPinTypeEthernetLED<UE> <DS>void GPIOPinTypeEthernetLED(unsigned long, unsigned char)<DE> Extent=<ES>150:1 - 150:79<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:150:50: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:150:50 (Definition) <US>c:gpio.h@7761@F@GPIOPinTypeEthernetLED@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>150:36 - 150:56<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:150:72: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:150:72 (Definition) <US>c:gpio.h@7783@F@GPIOPinTypeEthernetLED@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>150:58 - 150:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:151:13: FunctionDecl=GPIOPinTypeEthernetMII|C:\Git\LM4F120\driverlib\gpio.h:151:13 (Declaration) <US>c:@F@GPIOPinTypeEthernetMII<UE> <DS>void GPIOPinTypeEthernetMII(unsigned long, unsigned char)<DE> Extent=<ES>151:1 - 151:79<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:151:50: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:151:50 (Definition) <US>c:gpio.h@7842@F@GPIOPinTypeEthernetMII@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>151:36 - 151:56<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:151:72: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:151:72 (Definition) <US>c:gpio.h@7864@F@GPIOPinTypeEthernetMII@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>151:58 - 151:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:152:13: FunctionDecl=GPIOPinTypeFan|C:\Git\LM4F120\driverlib\gpio.h:152:13 (Declaration) <US>c:@F@GPIOPinTypeFan<UE> <DS>void GPIOPinTypeFan(unsigned long, unsigned char)<DE> Extent=<ES>152:1 - 152:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:152:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:152:42 (Definition) <US>c:gpio.h@7915@F@GPIOPinTypeFan@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>152:28 - 152:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:152:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:152:64 (Definition) <US>c:gpio.h@7937@F@GPIOPinTypeFan@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>152:50 - 152:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:153:13: FunctionDecl=GPIOPinTypeGPIOInput|C:\Git\LM4F120\driverlib\gpio.h:153:13 (Declaration) <US>c:@F@GPIOPinTypeGPIOInput<UE> <DS>void GPIOPinTypeGPIOInput(unsigned long, unsigned char)<DE> Extent=<ES>153:1 - 153:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:153:48: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:153:48 (Definition) <US>c:gpio.h@7994@F@GPIOPinTypeGPIOInput@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>153:34 - 153:54<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:153:70: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:153:70 (Definition) <US>c:gpio.h@8016@F@GPIOPinTypeGPIOInput@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>153:56 - 153:76<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:154:13: FunctionDecl=GPIOPinTypeGPIOOutput|C:\Git\LM4F120\driverlib\gpio.h:154:13 (Declaration) <US>c:@F@GPIOPinTypeGPIOOutput<UE> <DS>void GPIOPinTypeGPIOOutput(unsigned long, unsigned char)<DE> Extent=<ES>154:1 - 154:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:154:49: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:154:49 (Definition) <US>c:gpio.h@8074@F@GPIOPinTypeGPIOOutput@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>154:35 - 154:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:154:71: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:154:71 (Definition) <US>c:gpio.h@8096@F@GPIOPinTypeGPIOOutput@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>154:57 - 154:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:155:13: FunctionDecl=GPIOPinTypeGPIOOutputOD|C:\Git\LM4F120\driverlib\gpio.h:155:13 (Declaration) <US>c:@F@GPIOPinTypeGPIOOutputOD<UE> <DS>void GPIOPinTypeGPIOOutputOD(unsigned long, unsigned char)<DE> Extent=<ES>155:1 - 156:58<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:155:51: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:155:51 (Definition) <US>c:gpio.h@8156@F@GPIOPinTypeGPIOOutputOD@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>155:37 - 155:57<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:156:51: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:156:51 (Definition) <US>c:gpio.h@8215@F@GPIOPinTypeGPIOOutputOD@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>156:37 - 156:57<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:157:13: FunctionDecl=GPIOPinTypeI2C|C:\Git\LM4F120\driverlib\gpio.h:157:13 (Declaration) <US>c:@F@GPIOPinTypeI2C<UE> <DS>void GPIOPinTypeI2C(unsigned long, unsigned char)<DE> Extent=<ES>157:1 - 157:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:157:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:157:42 (Definition) <US>c:gpio.h@8266@F@GPIOPinTypeI2C@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>157:28 - 157:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:157:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:157:64 (Definition) <US>c:gpio.h@8288@F@GPIOPinTypeI2C@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>157:50 - 157:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:158:13: FunctionDecl=GPIOPinTypeI2CSCL|C:\Git\LM4F120\driverlib\gpio.h:158:13 (Declaration) <US>c:@F@GPIOPinTypeI2CSCL<UE> <DS>void GPIOPinTypeI2CSCL(unsigned long, unsigned char)<DE> Extent=<ES>158:1 - 158:74<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:158:45: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:158:45 (Definition) <US>c:gpio.h@8342@F@GPIOPinTypeI2CSCL@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>158:31 - 158:51<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:158:67: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:158:67 (Definition) <US>c:gpio.h@8364@F@GPIOPinTypeI2CSCL@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>158:53 - 158:73<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:159:13: FunctionDecl=GPIOPinTypeI2S|C:\Git\LM4F120\driverlib\gpio.h:159:13 (Declaration) <US>c:@F@GPIOPinTypeI2S<UE> <DS>void GPIOPinTypeI2S(unsigned long, unsigned char)<DE> Extent=<ES>159:1 - 159:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:159:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:159:42 (Definition) <US>c:gpio.h@8415@F@GPIOPinTypeI2S@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>159:28 - 159:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:159:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:159:64 (Definition) <US>c:gpio.h@8437@F@GPIOPinTypeI2S@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>159:50 - 159:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:160:13: FunctionDecl=GPIOPinTypeLPC|C:\Git\LM4F120\driverlib\gpio.h:160:13 (Declaration) <US>c:@F@GPIOPinTypeLPC<UE> <DS>void GPIOPinTypeLPC(unsigned long, unsigned char)<DE> Extent=<ES>160:1 - 160:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:160:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:160:42 (Definition) <US>c:gpio.h@8488@F@GPIOPinTypeLPC@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>160:28 - 160:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:160:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:160:64 (Definition) <US>c:gpio.h@8510@F@GPIOPinTypeLPC@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>160:50 - 160:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:161:13: FunctionDecl=GPIOPinTypePECIRx|C:\Git\LM4F120\driverlib\gpio.h:161:13 (Declaration) <US>c:@F@GPIOPinTypePECIRx<UE> <DS>void GPIOPinTypePECIRx(unsigned long, unsigned char)<DE> Extent=<ES>161:1 - 161:74<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:161:45: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:161:45 (Definition) <US>c:gpio.h@8564@F@GPIOPinTypePECIRx@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>161:31 - 161:51<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:161:67: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:161:67 (Definition) <US>c:gpio.h@8586@F@GPIOPinTypePECIRx@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>161:53 - 161:73<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:162:13: FunctionDecl=GPIOPinTypePECITx|C:\Git\LM4F120\driverlib\gpio.h:162:13 (Declaration) <US>c:@F@GPIOPinTypePECITx<UE> <DS>void GPIOPinTypePECITx(unsigned long, unsigned char)<DE> Extent=<ES>162:1 - 162:74<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:162:45: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:162:45 (Definition) <US>c:gpio.h@8640@F@GPIOPinTypePECITx@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>162:31 - 162:51<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:162:67: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:162:67 (Definition) <US>c:gpio.h@8662@F@GPIOPinTypePECITx@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>162:53 - 162:73<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:163:13: FunctionDecl=GPIOPinTypePWM|C:\Git\LM4F120\driverlib\gpio.h:163:13 (Declaration) <US>c:@F@GPIOPinTypePWM<UE> <DS>void GPIOPinTypePWM(unsigned long, unsigned char)<DE> Extent=<ES>163:1 - 163:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:163:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:163:42 (Definition) <US>c:gpio.h@8713@F@GPIOPinTypePWM@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>163:28 - 163:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:163:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:163:64 (Definition) <US>c:gpio.h@8735@F@GPIOPinTypePWM@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>163:50 - 163:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:164:13: FunctionDecl=GPIOPinTypeQEI|C:\Git\LM4F120\driverlib\gpio.h:164:13 (Declaration) <US>c:@F@GPIOPinTypeQEI<UE> <DS>void GPIOPinTypeQEI(unsigned long, unsigned char)<DE> Extent=<ES>164:1 - 164:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:164:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:164:42 (Definition) <US>c:gpio.h@8786@F@GPIOPinTypeQEI@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>164:28 - 164:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:164:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:164:64 (Definition) <US>c:gpio.h@8808@F@GPIOPinTypeQEI@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>164:50 - 164:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:165:13: FunctionDecl=GPIOPinTypeSSI|C:\Git\LM4F120\driverlib\gpio.h:165:13 (Declaration) <US>c:@F@GPIOPinTypeSSI<UE> <DS>void GPIOPinTypeSSI(unsigned long, unsigned char)<DE> Extent=<ES>165:1 - 165:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:165:42: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:165:42 (Definition) <US>c:gpio.h@8859@F@GPIOPinTypeSSI@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>165:28 - 165:48<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:165:64: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:165:64 (Definition) <US>c:gpio.h@8881@F@GPIOPinTypeSSI@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>165:50 - 165:70<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:166:13: FunctionDecl=GPIOPinTypeTimer|C:\Git\LM4F120\driverlib\gpio.h:166:13 (Declaration) <US>c:@F@GPIOPinTypeTimer<UE> <DS>void GPIOPinTypeTimer(unsigned long, unsigned char)<DE> Extent=<ES>166:1 - 166:73<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:166:44: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:166:44 (Definition) <US>c:gpio.h@8934@F@GPIOPinTypeTimer@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>166:30 - 166:50<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:166:66: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:166:66 (Definition) <US>c:gpio.h@8956@F@GPIOPinTypeTimer@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>166:52 - 166:72<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:167:13: FunctionDecl=GPIOPinTypeUART|C:\Git\LM4F120\driverlib\gpio.h:167:13 (Declaration) <US>c:@F@GPIOPinTypeUART<UE> <DS>void GPIOPinTypeUART(unsigned long, unsigned char)<DE> Extent=<ES>167:1 - 167:72<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:167:43: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:167:43 (Definition) <US>c:gpio.h@9008@F@GPIOPinTypeUART@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>167:29 - 167:49<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:167:65: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:167:65 (Definition) <US>c:gpio.h@9030@F@GPIOPinTypeUART@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>167:51 - 167:71<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:168:13: FunctionDecl=GPIOPinTypeUSBAnalog|C:\Git\LM4F120\driverlib\gpio.h:168:13 (Declaration) <US>c:@F@GPIOPinTypeUSBAnalog<UE> <DS>void GPIOPinTypeUSBAnalog(unsigned long, unsigned char)<DE> Extent=<ES>168:1 - 168:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:168:48: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:168:48 (Definition) <US>c:gpio.h@9087@F@GPIOPinTypeUSBAnalog@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>168:34 - 168:54<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:168:70: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:168:70 (Definition) <US>c:gpio.h@9109@F@GPIOPinTypeUSBAnalog@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>168:56 - 168:76<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:169:13: FunctionDecl=GPIOPinTypeUSBDigital|C:\Git\LM4F120\driverlib\gpio.h:169:13 (Declaration) <US>c:@F@GPIOPinTypeUSBDigital<UE> <DS>void GPIOPinTypeUSBDigital(unsigned long, unsigned char)<DE> Extent=<ES>169:1 - 169:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:169:49: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:169:49 (Definition) <US>c:gpio.h@9167@F@GPIOPinTypeUSBDigital@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>169:35 - 169:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:169:71: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:169:71 (Definition) <US>c:gpio.h@9189@F@GPIOPinTypeUSBDigital@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>169:57 - 169:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:170:13: FunctionDecl=GPIODMATriggerEnable|C:\Git\LM4F120\driverlib\gpio.h:170:13 (Declaration) <US>c:@F@GPIODMATriggerEnable<UE> <DS>void GPIODMATriggerEnable(unsigned long, unsigned char)<DE> Extent=<ES>170:1 - 170:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:170:48: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:170:48 (Definition) <US>c:gpio.h@9246@F@GPIODMATriggerEnable@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>170:34 - 170:54<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:170:70: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:170:70 (Definition) <US>c:gpio.h@9268@F@GPIODMATriggerEnable@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>170:56 - 170:76<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:171:13: FunctionDecl=GPIODMATriggerDisable|C:\Git\LM4F120\driverlib\gpio.h:171:13 (Declaration) <US>c:@F@GPIODMATriggerDisable<UE> <DS>void GPIODMATriggerDisable(unsigned long, unsigned char)<DE> Extent=<ES>171:1 - 171:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:171:49: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:171:49 (Definition) <US>c:gpio.h@9326@F@GPIODMATriggerDisable@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>171:35 - 171:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:171:71: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:171:71 (Definition) <US>c:gpio.h@9348@F@GPIODMATriggerDisable@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>171:57 - 171:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:172:13: FunctionDecl=GPIOADCTriggerEnable|C:\Git\LM4F120\driverlib\gpio.h:172:13 (Declaration) <US>c:@F@GPIOADCTriggerEnable<UE> <DS>void GPIOADCTriggerEnable(unsigned long, unsigned char)<DE> Extent=<ES>172:1 - 172:77<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:172:48: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:172:48 (Definition) <US>c:gpio.h@9405@F@GPIOADCTriggerEnable@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>172:34 - 172:54<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:172:70: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:172:70 (Definition) <US>c:gpio.h@9427@F@GPIOADCTriggerEnable@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>172:56 - 172:76<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:173:13: FunctionDecl=GPIOADCTriggerDisable|C:\Git\LM4F120\driverlib\gpio.h:173:13 (Declaration) <US>c:@F@GPIOADCTriggerDisable<UE> <DS>void GPIOADCTriggerDisable(unsigned long, unsigned char)<DE> Extent=<ES>173:1 - 173:78<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:173:49: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:173:49 (Definition) <US>c:gpio.h@9485@F@GPIOADCTriggerDisable@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>173:35 - 173:55<EE>
-<L>C:\Git\LM4F120\driverlib\gpio.h:173:71: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:173:71 (Definition) <US>c:gpio.h@9507@F@GPIOADCTriggerDisable@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>173:57 - 173:77<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:29:6: FunctionDecl=LightSensorInit|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:29:6 (Declaration) <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>29:1 - 29:27<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:30:6: FunctionDecl=StartLightSensor|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:30:6 (Declaration) <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>30:1 - 30:28<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:6: FunctionDecl=GetLightIntensity|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:6 (Declaration) <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>31:1 - 31:38<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:33: ParmDecl=Data|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:33 (Definition) <US>c:lightsensor.h@1290@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>31:24 - 31:37<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:24: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>31:24 - 31:31<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:56:14: EnumDecl=LedType_tag|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:56:14 (Definition) <US>c:@E@LedType_tag<UE> <DS>LedType_tag<DE> Extent=<ES>56:9 - 65:2<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:57:2: EnumConstantDecl=COLUMN_0|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:57:2 (Definition) <US>c:@E@LedType_tag@COLUMN_0<UE> <DS>COLUMN_0<DE> Extent=<ES>57:2 - 57:14<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:57:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:13 - 57:14<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:58:2: EnumConstantDecl=COLUMN_1|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:58:2 (Definition) <US>c:@E@LedType_tag@COLUMN_1<UE> <DS>COLUMN_1<DE> Extent=<ES>58:2 - 58:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:59:2: EnumConstantDecl=COLUMN_2|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:59:2 (Definition) <US>c:@E@LedType_tag@COLUMN_2<UE> <DS>COLUMN_2<DE> Extent=<ES>59:2 - 59:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:60:2: EnumConstantDecl=COLUMN_3|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:60:2 (Definition) <US>c:@E@LedType_tag@COLUMN_3<UE> <DS>COLUMN_3<DE> Extent=<ES>60:2 - 60:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:61:2: EnumConstantDecl=COLUMN_4|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:61:2 (Definition) <US>c:@E@LedType_tag@COLUMN_4<UE> <DS>COLUMN_4<DE> Extent=<ES>61:2 - 61:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:62:2: EnumConstantDecl=COLUMN_5|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:62:2 (Definition) <US>c:@E@LedType_tag@COLUMN_5<UE> <DS>COLUMN_5<DE> Extent=<ES>62:2 - 62:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:63:2: EnumConstantDecl=COLUMN_6|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:63:2 (Definition) <US>c:@E@LedType_tag@COLUMN_6<UE> <DS>COLUMN_6<DE> Extent=<ES>63:2 - 63:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:64:2: EnumConstantDecl=COLUMN_7|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:64:2 (Definition) <US>c:@E@LedType_tag@COLUMN_7<UE> <DS>COLUMN_7<DE> Extent=<ES>64:2 - 64:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:65:2: TypedefDecl=LedMatrix_t|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:65:2 (Definition) <US>c:ledMatrix.h@1849@T@LedMatrix_t<UE> <DS>enum LedType_tag<DE> Extent=<ES>56:1 - 65:13<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:56:14: EnumDecl=LedType_tag|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:56:14 (Definition) <US>c:@E@LedType_tag<UE> <DS>LedType_tag<DE> Extent=<ES>56:9 - 65:2<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:57:2: EnumConstantDecl=COLUMN_0|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:57:2 (Definition) <US>c:@E@LedType_tag@COLUMN_0<UE> <DS>COLUMN_0<DE> Extent=<ES>57:2 - 57:14<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:57:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:13 - 57:14<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:58:2: EnumConstantDecl=COLUMN_1|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:58:2 (Definition) <US>c:@E@LedType_tag@COLUMN_1<UE> <DS>COLUMN_1<DE> Extent=<ES>58:2 - 58:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:59:2: EnumConstantDecl=COLUMN_2|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:59:2 (Definition) <US>c:@E@LedType_tag@COLUMN_2<UE> <DS>COLUMN_2<DE> Extent=<ES>59:2 - 59:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:60:2: EnumConstantDecl=COLUMN_3|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:60:2 (Definition) <US>c:@E@LedType_tag@COLUMN_3<UE> <DS>COLUMN_3<DE> Extent=<ES>60:2 - 60:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:61:2: EnumConstantDecl=COLUMN_4|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:61:2 (Definition) <US>c:@E@LedType_tag@COLUMN_4<UE> <DS>COLUMN_4<DE> Extent=<ES>61:2 - 61:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:62:2: EnumConstantDecl=COLUMN_5|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:62:2 (Definition) <US>c:@E@LedType_tag@COLUMN_5<UE> <DS>COLUMN_5<DE> Extent=<ES>62:2 - 62:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:63:2: EnumConstantDecl=COLUMN_6|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:63:2 (Definition) <US>c:@E@LedType_tag@COLUMN_6<UE> <DS>COLUMN_6<DE> Extent=<ES>63:2 - 63:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:64:2: EnumConstantDecl=COLUMN_7|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:64:2 (Definition) <US>c:@E@LedType_tag@COLUMN_7<UE> <DS>COLUMN_7<DE> Extent=<ES>64:2 - 64:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:67:14: EnumDecl=Seg7_tag|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:67:14 (Definition) <US>c:@E@Seg7_tag<UE> <DS>Seg7_tag<DE> Extent=<ES>67:9 - 72:2<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:68:2: EnumConstantDecl=DIGI_0|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:68:2 (Definition) <US>c:@E@Seg7_tag@DIGI_0<UE> <DS>DIGI_0<DE> Extent=<ES>68:2 - 68:12<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:68:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:11 - 68:12<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:69:2: EnumConstantDecl=DIGI_1|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:69:2 (Definition) <US>c:@E@Seg7_tag@DIGI_1<UE> <DS>DIGI_1<DE> Extent=<ES>69:2 - 69:8<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:70:2: EnumConstantDecl=DIGI_2|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:70:2 (Definition) <US>c:@E@Seg7_tag@DIGI_2<UE> <DS>DIGI_2<DE> Extent=<ES>70:2 - 70:8<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:71:2: EnumConstantDecl=DIGI_3|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:71:2 (Definition) <US>c:@E@Seg7_tag@DIGI_3<UE> <DS>DIGI_3<DE> Extent=<ES>71:2 - 71:8<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:72:2: TypedefDecl=Seg7Type_t|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:72:2 (Definition) <US>c:ledMatrix.h@1993@T@Seg7Type_t<UE> <DS>enum Seg7_tag<DE> Extent=<ES>67:1 - 72:12<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:67:14: EnumDecl=Seg7_tag|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:67:14 (Definition) <US>c:@E@Seg7_tag<UE> <DS>Seg7_tag<DE> Extent=<ES>67:9 - 72:2<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:68:2: EnumConstantDecl=DIGI_0|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:68:2 (Definition) <US>c:@E@Seg7_tag@DIGI_0<UE> <DS>DIGI_0<DE> Extent=<ES>68:2 - 68:12<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:68:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:11 - 68:12<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:69:2: EnumConstantDecl=DIGI_1|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:69:2 (Definition) <US>c:@E@Seg7_tag@DIGI_1<UE> <DS>DIGI_1<DE> Extent=<ES>69:2 - 69:8<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:70:2: EnumConstantDecl=DIGI_2|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:70:2 (Definition) <US>c:@E@Seg7_tag@DIGI_2<UE> <DS>DIGI_2<DE> Extent=<ES>70:2 - 70:8<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:71:2: EnumConstantDecl=DIGI_3|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:71:2 (Definition) <US>c:@E@Seg7_tag@DIGI_3<UE> <DS>DIGI_3<DE> Extent=<ES>71:2 - 71:8<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:78:16: StructDecl=LedCtr_tag|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:78:16 (Definition) <US>c:@S@LedCtr_tag<UE> <DS>LedCtr_tag<DE> Extent=<ES>78:9 - 82:2<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:79:14: FieldDecl=Matrix|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:79:14 (Definition) <US>c:@S@LedCtr_tag@FI@Matrix<UE> <DS>Matrix<DE> Extent=<ES>79:2 - 79:20<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:79:2: TypeRef=LedMatrix_t|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:65:2 (Reference) <US>c:ledMatrix.h@1849@T@LedMatrix_t<UE> <DS>enum LedType_tag<DE> Extent=<ES>79:2 - 79:13<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:80:13: FieldDecl=Digi|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:80:13 (Definition) <US>c:@S@LedCtr_tag@FI@Digi<UE> <DS>Digi<DE> Extent=<ES>80:2 - 80:17<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:80:2: TypeRef=Seg7Type_t|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:72:2 (Reference) <US>c:ledMatrix.h@1993@T@Seg7Type_t<UE> <DS>enum Seg7_tag<DE> Extent=<ES>80:2 - 80:12<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:81:11: FieldDecl=rsv|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:81:11 (Definition) <US>c:@S@LedCtr_tag@FI@rsv<UE> <DS>rsv<DE> Extent=<ES>81:2 - 81:14<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:81:2: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>81:2 - 81:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:82:2: TypedefDecl=LedCtr_t|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:82:2 (Definition) <US>c:ledMatrix.h@2245@T@LedCtr_t<UE> <DS>struct LedCtr_tag<DE> Extent=<ES>78:1 - 82:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:78:16: StructDecl=LedCtr_tag|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:78:16 (Definition) <US>c:@S@LedCtr_tag<UE> <DS>LedCtr_tag<DE> Extent=<ES>78:9 - 82:2<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:79:14: FieldDecl=Matrix|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:79:14 (Definition) <US>c:@S@LedCtr_tag@FI@Matrix<UE> <DS>Matrix<DE> Extent=<ES>79:2 - 79:20<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:79:2: TypeRef=LedMatrix_t|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:65:2 (Reference) <US>c:ledMatrix.h@1849@T@LedMatrix_t<UE> <DS>enum LedType_tag<DE> Extent=<ES>79:2 - 79:13<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:80:13: FieldDecl=Digi|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:80:13 (Definition) <US>c:@S@LedCtr_tag@FI@Digi<UE> <DS>Digi<DE> Extent=<ES>80:2 - 80:17<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:80:2: TypeRef=Seg7Type_t|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:72:2 (Reference) <US>c:ledMatrix.h@1993@T@Seg7Type_t<UE> <DS>enum Seg7_tag<DE> Extent=<ES>80:2 - 80:12<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:81:11: FieldDecl=rsv|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:81:11 (Definition) <US>c:@S@LedCtr_tag@FI@rsv<UE> <DS>rsv<DE> Extent=<ES>81:2 - 81:14<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:81:2: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>81:2 - 81:10<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:84:6: FunctionDecl=LedInit|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:84:6 (Declaration) <US>c:@F@LedInit<UE> <DS>void LedInit(void)<DE> Extent=<ES>84:1 - 84:19<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:85:6: FunctionDecl=LedProcess|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:85:6 (Declaration) <US>c:@F@LedProcess<UE> <DS>void LedProcess(void)<DE> Extent=<ES>85:1 - 85:22<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:6: FunctionDecl=Write7SegRam|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:6 (Declaration) <US>c:@F@Write7SegRam<UE> <DS>void Write7SegRam(uint8_t)<DE> Extent=<ES>86:1 - 86:33<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:27: ParmDecl=Value|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:27 (Definition) <US>c:ledMatrix.h@2487@F@Write7SegRam@Value<UE> <DS>uint8_t<DE> Extent=<ES>86:19 - 86:32<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:19: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>86:19 - 86:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:38:1: StructDecl=|C:\Git\LM4F120\LightSensor\02.src\main.c:38:1 (Definition) <US>c:main.c@1405@Sa<UE> <DS><DE> Extent=<ES>38:1 - 40:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:39:11: FieldDecl=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:39:11 (Definition) <US>c:main.c@1405@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>39:2 - 39:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:39:2: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>39:2 - 39:10<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:40:2: VarDecl=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:40:2 (Declaration) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>38:1 - 40:10<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:38:1: StructDecl=|C:\Git\LM4F120\LightSensor\02.src\main.c:38:1 (Definition) <US>c:main.c@1405@Sa<UE> <DS><DE> Extent=<ES>38:1 - 40:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:39:11: FieldDecl=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:39:11 (Definition) <US>c:main.c@1405@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>39:2 - 39:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:39:2: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>39:2 - 39:10<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:42:9: VarDecl=TestNum|C:\Git\LM4F120\LightSensor\02.src\main.c:42:9 (Definition) <US>c:@TestNum<UE> <DS>TestNum<DE> Extent=<ES>42:1 - 42:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:42:1: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>42:1 - 42:8<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:42:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>42:19 - 42:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:42:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:19 - 42:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:44:6: FunctionDecl=TestSystick|C:\Git\LM4F120\LightSensor\02.src\main.c:44:6 (Definition) <US>c:@F@TestSystick<UE> <DS>void TestSystick(void)<DE> Extent=<ES>44:1 - 62:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:44:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>44:24 - 62:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:45:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:14<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:45:10: VarDecl=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:45:10 (Definition) <US>c:main.c@1499@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>45:2 - 45:13<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:45:2: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>45:2 - 45:9<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>47:2 - 58:3<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:22<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>47:5 - 47:22<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:16: MemberRefExpr=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:39:11 (Reference) <US>c:main.c@1405@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>47:7 - 47:22<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:7: DeclRefExpr=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:40:2 (Reference) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>47:7 - 47:15<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:26 - 47:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:32: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>47:32 - 58:3<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:48:3: CallExpr=StartLightSensor|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:30:6 <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>48:3 - 48:21<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:48:3: UnexposedExpr=StartLightSensor|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:30:6 <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>48:3 - 48:19<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:48:3: DeclRefExpr=StartLightSensor|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:30:6 (Reference) <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>48:3 - 48:19<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:49:3: CallExpr=GetLightIntensity|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:6 <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>49:3 - 49:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:49:3: UnexposedExpr=GetLightIntensity|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:6 <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>49:3 - 49:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:49:3: DeclRefExpr=GetLightIntensity|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:6 (Reference) <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>49:3 - 49:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:49:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>49:21 - 49:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:49:22: DeclRefExpr=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:45:10 (Reference) <US>c:main.c@1499@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>49:22 - 49:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:50:3: CallExpr=Write7SegRam|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:6 <US>c:@F@Write7SegRam<UE> <DS>void Write7SegRam(uint8_t)<DE> Extent=<ES>50:3 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:50:3: UnexposedExpr=Write7SegRam|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:6 <US>c:@F@Write7SegRam<UE> <DS>void Write7SegRam(uint8_t)<DE> Extent=<ES>50:3 - 50:15<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:50:3: DeclRefExpr=Write7SegRam|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:86:6 (Reference) <US>c:@F@Write7SegRam<UE> <DS>void Write7SegRam(uint8_t)<DE> Extent=<ES>50:3 - 50:15<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:50:16: UnexposedExpr=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:45:10 <US>c:main.c@1499@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>50:16 - 50:19<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:50:16: DeclRefExpr=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:45:10 (Reference) <US>c:main.c@1499@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>50:16 - 50:19<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:57:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:3 - 57:22<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:57:12: MemberRefExpr=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:39:11 (Reference) <US>c:main.c@1405@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>57:3 - 57:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:57:3: DeclRefExpr=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:40:2 (Reference) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>57:3 - 57:11<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:57:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:21 - 57:22<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:57:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:21 - 57:22<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:60:2: CallExpr=LedProcess|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:85:6 <US>c:@F@LedProcess<UE> <DS>void LedProcess(void)<DE> Extent=<ES>60:2 - 60:14<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:60:2: UnexposedExpr=LedProcess|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:85:6 <US>c:@F@LedProcess<UE> <DS>void LedProcess(void)<DE> Extent=<ES>60:2 - 60:12<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:60:2: DeclRefExpr=LedProcess|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:85:6 (Reference) <US>c:@F@LedProcess<UE> <DS>void LedProcess(void)<DE> Extent=<ES>60:2 - 60:12<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:65:5: FunctionDecl=main|C:\Git\LM4F120\LightSensor\02.src\main.c:65:5 (Definition) <US>c:@F@main<UE> <DS>int main(int, char **)<DE> Extent=<ES>65:1 - 85:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:65:15: ParmDecl=argc|C:\Git\LM4F120\LightSensor\02.src\main.c:65:15 (Definition) <US>c:main.c@1892@F@main@argc<UE> <DS>int<DE> Extent=<ES>65:11 - 65:19<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:65:27: ParmDecl=argv|C:\Git\LM4F120\LightSensor\02.src\main.c:65:27 (Definition) <US>c:main.c@1902@F@main@argv<UE> <DS>char **<DE> Extent=<ES>65:21 - 65:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:65:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>65:35 - 85:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:66:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>66:2 - 66:13<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:66:9: UnexposedExpr=argc|C:\Git\LM4F120\LightSensor\02.src\main.c:65:15 <US>c:main.c@1892@F@main@argc<UE> <DS>int<DE> Extent=<ES>66:9 - 66:13<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:66:9: DeclRefExpr=argc|C:\Git\LM4F120\LightSensor\02.src\main.c:65:15 (Reference) <US>c:main.c@1892@F@main@argc<UE> <DS>int<DE> Extent=<ES>66:9 - 66:13<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:67:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:13<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:67:9: UnexposedExpr=argv|C:\Git\LM4F120\LightSensor\02.src\main.c:65:27 <US>c:main.c@1902@F@main@argv<UE> <DS>char **<DE> Extent=<ES>67:9 - 67:13<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:67:9: DeclRefExpr=argv|C:\Git\LM4F120\LightSensor\02.src\main.c:65:27 (Reference) <US>c:main.c@1902@F@main@argv<UE> <DS>char **<DE> Extent=<ES>67:9 - 67:13<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:68:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:21<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:68:11: MemberRefExpr=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:39:11 (Reference) <US>c:main.c@1405@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>68:2 - 68:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:68:2: DeclRefExpr=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:40:2 (Reference) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>68:2 - 68:10<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:68:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:20 - 68:21<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:68:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:20 - 68:21<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:2: CallExpr=GPIOPinTypeGPIOOutput|C:\Git\LM4F120\driverlib\gpio.h:154:13 <US>c:@F@GPIOPinTypeGPIOOutput<UE> <DS>void GPIOPinTypeGPIOOutput(unsigned long, unsigned char)<DE> Extent=<ES>69:2 - 69:52<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:2: UnexposedExpr=GPIOPinTypeGPIOOutput|C:\Git\LM4F120\driverlib\gpio.h:154:13 <US>c:@F@GPIOPinTypeGPIOOutput<UE> <DS>void GPIOPinTypeGPIOOutput(unsigned long, unsigned char)<DE> Extent=<ES>69:2 - 69:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:2: DeclRefExpr=GPIOPinTypeGPIOOutput|C:\Git\LM4F120\driverlib\gpio.h:154:13 (Reference) <US>c:@F@GPIOPinTypeGPIOOutput<UE> <DS>void GPIOPinTypeGPIOOutput(unsigned long, unsigned char)<DE> Extent=<ES>69:2 - 69:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>69:24 - 69:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>69:24 - 69:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>69:41 - 69:51<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:69:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>69:41 - 69:51<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:72:2: CallExpr=LightSensorInit|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:29:6 <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>72:2 - 72:19<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:72:2: UnexposedExpr=LightSensorInit|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:29:6 <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>72:2 - 72:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:72:2: DeclRefExpr=LightSensorInit|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:29:6 (Reference) <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>72:2 - 72:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:75:2: CallExpr=LedInit|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:84:6 <US>c:@F@LedInit<UE> <DS>void LedInit(void)<DE> Extent=<ES>75:2 - 75:11<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:75:2: UnexposedExpr=LedInit|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:84:6 <US>c:@F@LedInit<UE> <DS>void LedInit(void)<DE> Extent=<ES>75:2 - 75:9<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:75:2: DeclRefExpr=LedInit|C:\Git\LM4F120\LightSensor\01.inc\ledMatrix.h:84:6 (Reference) <US>c:@F@LedInit<UE> <DS>void LedInit(void)<DE> Extent=<ES>75:2 - 75:9<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:77:2: CallExpr=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>77:2 - 77:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:77:2: UnexposedExpr=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>77:2 - 77:16<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:77:2: DeclRefExpr=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 (Reference) <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>77:2 - 77:16<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:80:2: CallExpr=IntMasterEnable|C:\Git\LM4F120\driverlib\interrupt.h:67:17 <US>c:@F@IntMasterEnable<UE> <DS>tBoolean IntMasterEnable(void)<DE> Extent=<ES>80:2 - 80:19<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:80:2: UnexposedExpr=IntMasterEnable|C:\Git\LM4F120\driverlib\interrupt.h:67:17 <US>c:@F@IntMasterEnable<UE> <DS>tBoolean IntMasterEnable(void)<DE> Extent=<ES>80:2 - 80:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:80:2: DeclRefExpr=IntMasterEnable|C:\Git\LM4F120\driverlib\interrupt.h:67:17 (Reference) <US>c:@F@IntMasterEnable<UE> <DS>tBoolean IntMasterEnable(void)<DE> Extent=<ES>80:2 - 80:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:84:2: WhileStmt= <US><UE> <DS><DE> Extent=<ES>84:2 - 84:11<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:84:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>84:8 - 84:9<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\main.c:84:10: NullStmt= <US><UE> <DS><DE> Extent=<ES>84:10 - 84:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:32:15: VarDecl=ulButtons|C:\Git\LM4F120\LightSensor\02.src\main.c:32:15 (Declaration) <US>c:@ulButtons<UE> <DS>ulButtons<DE> Extent=<ES>32:1 - 32:24<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:39:1: StructDecl=|C:\Git\LM4F120\LightSensor\02.src\main.c:39:1 (Definition) <US>c:main.c@1476@Sa<UE> <DS><DE> Extent=<ES>39:1 - 41:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:40:11: FieldDecl=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:40:11 (Definition) <US>c:main.c@1476@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>40:2 - 40:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:40:2: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>40:2 - 40:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:41:2: VarDecl=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:41:2 (Declaration) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>39:1 - 41:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:39:1: StructDecl=|C:\Git\LM4F120\LightSensor\02.src\main.c:39:1 (Definition) <US>c:main.c@1476@Sa<UE> <DS><DE> Extent=<ES>39:1 - 41:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:40:11: FieldDecl=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:40:11 (Definition) <US>c:main.c@1476@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>40:2 - 40:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:40:2: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>40:2 - 40:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:43:9: VarDecl=TestNum|C:\Git\LM4F120\LightSensor\02.src\main.c:43:9 (Definition) <US>c:@TestNum<UE> <DS>TestNum<DE> Extent=<ES>43:1 - 43:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:43:1: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>43:1 - 43:8<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:43:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:19 - 43:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:43:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:19 - 43:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:45:6: FunctionDecl=ButtonHandler|C:\Git\LM4F120\LightSensor\02.src\main.c:45:6 (Definition) <US>c:@F@ButtonHandler<UE> <DS>void ButtonHandler(void)<DE> Extent=<ES>45:1 - 71:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:45:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>45:26 - 71:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:46:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>46:2 - 46:32<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:46:18: VarDecl=ulTickCounter|C:\Git\LM4F120\LightSensor\02.src\main.c:46:18 (Definition) <US>c:main.c@1572@F@ButtonHandler@ulTickCounter<UE> <DS>ulTickCounter<DE> Extent=<ES>46:2 - 46:31<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:46:9: TypeRef=uint32_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>46:9 - 46:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:2 - 47:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:2: DeclRefExpr=ulButtons|C:\Git\LM4F120\LightSensor\02.src\main.c:32:15 (Reference) <US>c:@ulButtons<UE> <DS>ulButtons<DE> Extent=<ES>47:2 - 47:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:14: UnexposedExpr=ButtonsPoll|C:\Git\LM4F120\LightSensor\02.src\main.c:47:14 <US><UE> <DS>int ButtonsPoll(void)<DE> Extent=<ES>47:14 - 47:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:14: CallExpr=ButtonsPoll|C:\Git\LM4F120\LightSensor\02.src\main.c:47:14 <US><UE> <DS>int ButtonsPoll(void)<DE> Extent=<ES>47:14 - 47:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:14: UnexposedExpr=ButtonsPoll|C:\Git\LM4F120\LightSensor\02.src\main.c:47:14 <US><UE> <DS>int ButtonsPoll(void)<DE> Extent=<ES>47:14 - 47:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:14: DeclRefExpr=ButtonsPoll|C:\Git\LM4F120\LightSensor\02.src\main.c:47:14 (Reference) <US><UE> <DS>int ButtonsPoll(void)<DE> Extent=<ES>47:14 - 47:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:26 - 47:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:47:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:28 - 47:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:49:2: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>49:2 - 49:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:49:2: DeclRefExpr=ulTickCounter|C:\Git\LM4F120\LightSensor\02.src\main.c:46:18 (Reference) <US>c:main.c@1572@F@ButtonHandler@ulTickCounter<UE> <DS>ulTickCounter<DE> Extent=<ES>49:2 - 49:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:73:6: FunctionDecl=TestSystick|C:\Git\LM4F120\LightSensor\02.src\main.c:73:6 (Definition) <US>c:@F@TestSystick<UE> <DS>void TestSystick(void)<DE> Extent=<ES>73:1 - 93:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:73:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>73:24 - 93:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:74:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>74:2 - 74:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:74:10: VarDecl=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:74:10 (Definition) <US>c:main.c@2202@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>74:2 - 74:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:74:2: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>74:2 - 74:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>76:2 - 87:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>76:5 - 76:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:5: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:5 - 76:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>76:5 - 76:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:16: MemberRefExpr=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:40:11 (Reference) <US>c:main.c@1476@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>76:7 - 76:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:7: DeclRefExpr=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:41:2 (Reference) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>76:7 - 76:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:26 - 76:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:76:32: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>76:32 - 87:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:77:3: CallExpr=StartLightSensor|C:\Git\LM4F120\LightSensor\02.src\main.c:77:3 <US><UE> <DS>int StartLightSensor(void)<DE> Extent=<ES>77:3 - 77:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:77:3: UnexposedExpr=StartLightSensor|C:\Git\LM4F120\LightSensor\02.src\main.c:77:3 <US><UE> <DS>int StartLightSensor(void)<DE> Extent=<ES>77:3 - 77:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:77:3: DeclRefExpr=StartLightSensor|C:\Git\LM4F120\LightSensor\02.src\main.c:77:3 (Reference) <US><UE> <DS>int StartLightSensor(void)<DE> Extent=<ES>77:3 - 77:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:78:3: CallExpr=GetLightIntensity|C:\Git\LM4F120\LightSensor\02.src\main.c:78:3 <US><UE> <DS>int GetLightIntensity(void)<DE> Extent=<ES>78:3 - 78:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:78:3: UnexposedExpr=GetLightIntensity|C:\Git\LM4F120\LightSensor\02.src\main.c:78:3 <US><UE> <DS>int GetLightIntensity(void)<DE> Extent=<ES>78:3 - 78:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:78:3: DeclRefExpr=GetLightIntensity|C:\Git\LM4F120\LightSensor\02.src\main.c:78:3 (Reference) <US><UE> <DS>int GetLightIntensity(void)<DE> Extent=<ES>78:3 - 78:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:78:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>78:21 - 78:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:78:22: DeclRefExpr=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:74:10 (Reference) <US>c:main.c@2202@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>78:22 - 78:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:79:3: CallExpr=Write7SegRam|C:\Git\LM4F120\LightSensor\02.src\main.c:79:3 <US><UE> <DS>int Write7SegRam(void)<DE> Extent=<ES>79:3 - 79:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:79:3: UnexposedExpr=Write7SegRam|C:\Git\LM4F120\LightSensor\02.src\main.c:79:3 <US><UE> <DS>int Write7SegRam(void)<DE> Extent=<ES>79:3 - 79:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:79:3: DeclRefExpr=Write7SegRam|C:\Git\LM4F120\LightSensor\02.src\main.c:79:3 (Reference) <US><UE> <DS>int Write7SegRam(void)<DE> Extent=<ES>79:3 - 79:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:79:16: UnexposedExpr=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:74:10 <US>c:main.c@2202@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>79:16 - 79:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:79:16: UnexposedExpr=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:74:10 <US>c:main.c@2202@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>79:16 - 79:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:79:16: DeclRefExpr=mcd|C:\Git\LM4F120\LightSensor\02.src\main.c:74:10 (Reference) <US>c:main.c@2202@F@TestSystick@mcd<UE> <DS>mcd<DE> Extent=<ES>79:16 - 79:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:86:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>86:3 - 86:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:86:12: MemberRefExpr=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:40:11 (Reference) <US>c:main.c@1476@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>86:3 - 86:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:86:3: DeclRefExpr=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:41:2 (Reference) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>86:3 - 86:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:86:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>86:21 - 86:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:86:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>86:21 - 86:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:89:2: CallExpr=LedProcess|C:\Git\LM4F120\LightSensor\02.src\main.c:89:2 <US><UE> <DS>int LedProcess(void)<DE> Extent=<ES>89:2 - 89:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:89:2: UnexposedExpr=LedProcess|C:\Git\LM4F120\LightSensor\02.src\main.c:89:2 <US><UE> <DS>int LedProcess(void)<DE> Extent=<ES>89:2 - 89:12<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:89:2: DeclRefExpr=LedProcess|C:\Git\LM4F120\LightSensor\02.src\main.c:89:2 (Reference) <US><UE> <DS>int LedProcess(void)<DE> Extent=<ES>89:2 - 89:12<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:92:2: CallExpr=ButtonHandler|C:\Git\LM4F120\LightSensor\02.src\main.c:45:6 <US>c:@F@ButtonHandler<UE> <DS>void ButtonHandler(void)<DE> Extent=<ES>92:2 - 92:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:92:2: UnexposedExpr=ButtonHandler|C:\Git\LM4F120\LightSensor\02.src\main.c:45:6 <US>c:@F@ButtonHandler<UE> <DS>void ButtonHandler(void)<DE> Extent=<ES>92:2 - 92:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:92:2: DeclRefExpr=ButtonHandler|C:\Git\LM4F120\LightSensor\02.src\main.c:45:6 (Reference) <US>c:@F@ButtonHandler<UE> <DS>void ButtonHandler(void)<DE> Extent=<ES>92:2 - 92:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:96:5: FunctionDecl=main|C:\Git\LM4F120\LightSensor\02.src\main.c:96:5 (Definition) <US>c:@F@main<UE> <DS>int main(int, char **)<DE> Extent=<ES>96:1 - 119:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:96:15: ParmDecl=argc|C:\Git\LM4F120\LightSensor\02.src\main.c:96:15 (Definition) <US>c:main.c@2616@F@main@argc<UE> <DS>int<DE> Extent=<ES>96:11 - 96:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:96:27: ParmDecl=argv|C:\Git\LM4F120\LightSensor\02.src\main.c:96:27 (Definition) <US>c:main.c@2626@F@main@argv<UE> <DS>char **<DE> Extent=<ES>96:21 - 96:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:96:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>96:35 - 119:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:97:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>97:2 - 97:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:97:9: UnexposedExpr=argc|C:\Git\LM4F120\LightSensor\02.src\main.c:96:15 <US>c:main.c@2616@F@main@argc<UE> <DS>int<DE> Extent=<ES>97:9 - 97:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:97:9: DeclRefExpr=argc|C:\Git\LM4F120\LightSensor\02.src\main.c:96:15 (Reference) <US>c:main.c@2616@F@main@argc<UE> <DS>int<DE> Extent=<ES>97:9 - 97:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:98:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>98:2 - 98:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:98:9: UnexposedExpr=argv|C:\Git\LM4F120\LightSensor\02.src\main.c:96:27 <US>c:main.c@2626@F@main@argv<UE> <DS>char **<DE> Extent=<ES>98:9 - 98:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:98:9: DeclRefExpr=argv|C:\Git\LM4F120\LightSensor\02.src\main.c:96:27 (Reference) <US>c:main.c@2626@F@main@argv<UE> <DS>char **<DE> Extent=<ES>98:9 - 98:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:99:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:2 - 99:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:99:11: MemberRefExpr=TB1Sec|C:\Git\LM4F120\LightSensor\02.src\main.c:40:11 (Reference) <US>c:main.c@1476@Sa@FI@TB1Sec<UE> <DS>TB1Sec<DE> Extent=<ES>99:2 - 99:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:99:2: DeclRefExpr=Timebase|C:\Git\LM4F120\LightSensor\02.src\main.c:41:2 (Reference) <US>c:@Timebase<UE> <DS>Timebase<DE> Extent=<ES>99:2 - 99:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:99:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>99:20 - 99:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:99:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:20 - 99:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:103:2: CallExpr=LightSensorInit|C:\Git\LM4F120\LightSensor\02.src\main.c:103:2 <US><UE> <DS>int LightSensorInit(void)<DE> Extent=<ES>103:2 - 103:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:103:2: UnexposedExpr=LightSensorInit|C:\Git\LM4F120\LightSensor\02.src\main.c:103:2 <US><UE> <DS>int LightSensorInit(void)<DE> Extent=<ES>103:2 - 103:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:103:2: DeclRefExpr=LightSensorInit|C:\Git\LM4F120\LightSensor\02.src\main.c:103:2 (Reference) <US><UE> <DS>int LightSensorInit(void)<DE> Extent=<ES>103:2 - 103:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:106:2: CallExpr=LedInit|C:\Git\LM4F120\LightSensor\02.src\main.c:106:2 <US><UE> <DS>int LedInit(void)<DE> Extent=<ES>106:2 - 106:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:106:2: UnexposedExpr=LedInit|C:\Git\LM4F120\LightSensor\02.src\main.c:106:2 <US><UE> <DS>int LedInit(void)<DE> Extent=<ES>106:2 - 106:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:106:2: DeclRefExpr=LedInit|C:\Git\LM4F120\LightSensor\02.src\main.c:106:2 (Reference) <US><UE> <DS>int LedInit(void)<DE> Extent=<ES>106:2 - 106:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:109:2: CallExpr=ButtonsInit|C:\Git\LM4F120\LightSensor\02.src\main.c:109:2 <US><UE> <DS>int ButtonsInit(void)<DE> Extent=<ES>109:2 - 109:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:109:2: UnexposedExpr=ButtonsInit|C:\Git\LM4F120\LightSensor\02.src\main.c:109:2 <US><UE> <DS>int ButtonsInit(void)<DE> Extent=<ES>109:2 - 109:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:109:2: DeclRefExpr=ButtonsInit|C:\Git\LM4F120\LightSensor\02.src\main.c:109:2 (Reference) <US><UE> <DS>int ButtonsInit(void)<DE> Extent=<ES>109:2 - 109:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:111:2: CallExpr=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>111:2 - 111:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:111:2: UnexposedExpr=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>111:2 - 111:16<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:111:2: DeclRefExpr=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 (Reference) <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>111:2 - 111:16<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:114:2: CallExpr=IntMasterEnable|C:\Git\LM4F120\driverlib\interrupt.h:67:17 <US>c:@F@IntMasterEnable<UE> <DS>tBoolean IntMasterEnable(void)<DE> Extent=<ES>114:2 - 114:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:114:2: UnexposedExpr=IntMasterEnable|C:\Git\LM4F120\driverlib\interrupt.h:67:17 <US>c:@F@IntMasterEnable<UE> <DS>tBoolean IntMasterEnable(void)<DE> Extent=<ES>114:2 - 114:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:114:2: DeclRefExpr=IntMasterEnable|C:\Git\LM4F120\driverlib\interrupt.h:67:17 (Reference) <US>c:@F@IntMasterEnable<UE> <DS>tBoolean IntMasterEnable(void)<DE> Extent=<ES>114:2 - 114:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:118:2: WhileStmt= <US><UE> <DS><DE> Extent=<ES>118:2 - 118:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:118:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>118:8 - 118:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\main.c:118:10: NullStmt= <US><UE> <DS><DE> Extent=<ES>118:10 - 118:11<EE>

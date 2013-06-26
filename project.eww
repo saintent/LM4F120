@@ -5,6 +5,9 @@
     <path>$WS_DIR$\driverlib\driverlib-cm4f.ewp</path>
   </project>
   <project>
+    <path>$WS_DIR$\LCD TFT\LCD_TFT.ewp</path>
+  </project>
+  <project>
     <path>$WS_DIR$\LightSensor\LightSensor.ewp</path>
   </project>
   <project>

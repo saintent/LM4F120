@@ -38,7 +38,7 @@ ShowSource=1
 [LMIFTDIDriver]
 LMI_ResetMode=0x00000000
 [DebugChecksum]
-Checksum=-1887689716
+Checksum=1525771339
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -66,8 +66,11 @@ Exclusions=
 [Disassemble mode]
 mode=0
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\02.src\lightSensor.c}.127.3" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\02.src\lightSensor.c}.127.3" 1 0 0 0 "" 0 ""
+Count=2
 [Aliases]
-A0=_ "C:\TI\driverlib\gpio.c" "C:\Git\LM4F120\driverlib\gpio.c"
-Count=1
+A0=_ "C:\TI\driverlib\flash.c" ""
+A1=_ "C:\TI\driverlib\gpio.c" "C:\Git\LM4F120\driverlib\gpio.c"
+Count=2
 SuppressDialog=1

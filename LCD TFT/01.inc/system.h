@@ -1,20 +1,24 @@
 //================ File Despciption =========================================//
-//=== File name : LIGHTSENSOR_H
+//=== File name : SYSTEM_H
 //=== 
 //===========================================================================//
 
-#ifndef LIGHTSENSOR_H
-#define LIGHTSENSOR_H
+#ifndef SYSTEM_H
+#define SYSTEM_H
 
 //================ Include Standard =========================================//
 //
 //================ Include Peripherals ======================================//
-#include "gpio.h"
+#include "lm4f120h5qr.h"
+#include "hw_memmap.h"
+#include "hw_types.h"
+#include "pin_map.h"
+#include "rom.h"
+#include "sysctl.h"
 //================ Include User App =========================================//
-#include "system.h"
+//
 //================ PULBIC DEFINE ============================================//
-#define LIGHTSENSOR_PORT		GPIO_PORTE_BASE
-#define LIGHTSENSOR_PIN			GPIO_PIN_3
+//
 //================ PUBLIC MACRO =============================================//
 //
 //================ TYPEDEF DATA TYPE DEFINITION =============================//
@@ -22,13 +26,11 @@
 //================ ENUMERATOR DEFINITION ====================================//
 //
 //================ TYPEDEF FUNCTION TYPE DEFFINITION ========================//
-//
+typedef void SystickCallBack_t(void);
 //================ TYPEDEF STRUCT/UNION =====================================//
 //
 //================ EXTERN FUNCTION ==========================================//
-void LightSensorInit(void);
-void StartLightSensor(void);
-void GetLightIntensity(uint8_t* Data);
+void SystemTickInit(void);
 //================ EXTERN FUNCTION POINTER ==================================//
 //
 //================ EXTERN VARIABLE ==========================================//
@@ -37,4 +39,4 @@ void GetLightIntensity(uint8_t* Data);
 //
 //================ END OF FILE ==============================================//
 #endif
-//#ifndef LIGHTSENSOR_H
+//#ifndef SYSTEM_H

@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+*.out
+*.pbi
+*.pbi.cout
+*.pbd
+*.pbd.browse

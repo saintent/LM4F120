@@ -25,7 +25,7 @@
         </option>
         <option>
           <name>ListPath</name>
-          <state>06.dbg\List</state>
+          <state>06.dbg</state>
         </option>
         <option>
           <name>Variant</name>
@@ -147,7 +147,7 @@
         </option>
         <option>
           <name>OGUseCmsis</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>OGUseCmsisDspLib</name>
@@ -231,7 +231,7 @@
         <option>
           <name>CCAllowList</name>
           <version>1</version>
-          <state>1111111</state>
+          <state>0000000</state>
         </option>
         <option>
           <name>CCDebugInfo</name>
@@ -309,6 +309,9 @@
           <state>$WS_DIR$\usblib\host</state>
           <state>$WS_DIR$\utils</state>
           <state>$WS_DIR$\</state>
+          <state>$WS_DIR$\01.inc\</state>
+          <state>$WS_DIR$\02.src\</state>
+          <state>$WS_DIR$\03.lib\</state>
           <state>$PROJ_DIR$\01.inc\</state>
           <state>$PROJ_DIR$\02.src\</state>
           <state>$PROJ_DIR$\03.lib\</state>
@@ -332,7 +335,7 @@
         </option>
         <option>
           <name>CCOptLevel</name>
-          <state>3</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCOptStrategy</name>
@@ -341,7 +344,7 @@
         </option>
         <option>
           <name>CCOptLevelSlave</name>
-          <state>3</state>
+          <state>1</state>
         </option>
         <option>
           <name>CompilerMisraRules98</name>
@@ -587,7 +590,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>5.srec</state>
+          <state>LCD_TFT.srec</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -629,7 +632,7 @@
         <debug>1</debug>
         <option>
           <name>IlinkOutputFile</name>
-          <state>cpp.out</state>
+          <state>c.out</state>
         </option>
         <option>
           <name>IlinkLibIOConfig</name>
@@ -1283,7 +1286,7 @@
         </option>
         <option>
           <name>IccLang</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>IccCDialect</name>
@@ -1503,7 +1506,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>5.srec</state>
+          <state>c.srec</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -1545,7 +1548,7 @@
         <debug>0</debug>
         <option>
           <name>IlinkOutputFile</name>
-          <state>cpp.out</state>
+          <state>c.out</state>
         </option>
         <option>
           <name>IlinkLibIOConfig</name>
@@ -1852,19 +1855,10 @@
   <group>
     <name>02.src</name>
     <file>
-      <name>$PROJ_DIR$\02.src\buttons.c</name>
+      <name>$PROJ_DIR$\..\02.src\I80_Interface.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\02.src\LedMatrix.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\02.src\lightSensor.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\02.src\main.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\02.src\system.c</name>
+      <name>$PROJ_DIR$\main.c</name>
     </file>
   </group>
   <group>
@@ -1877,6 +1871,9 @@
     <name>04.start_up</name>
     <file>
       <name>$PROJ_DIR$\04.start_up\startup_ewarm.c</name>
+      <excluded>
+        <configuration>Debug</configuration>
+      </excluded>
     </file>
   </group>
   <group>

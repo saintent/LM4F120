@@ -1090,7 +1090,17 @@
 <L>C:\Git\LM4F120\driverlib\pin_map.h:61766:9: macro definition=PinTypeUART <US>c:macro@PinTypeUART<UE> <DS>PinTypeUART<DE> Extent=<ES>61766:9 - 61766:77<EE>
 <L>C:\Git\LM4F120\driverlib\pin_map.h:61786:9: macro definition=PinTypeUSBDigital <US>c:macro@PinTypeUSBDigital<UE> <DS>PinTypeUSBDigital<DE> Extent=<ES>61786:9 - 61788:68<EE>
 <L>C:\Git\LM4F120\driverlib\pin_map.h:61808:9: macro definition=PeripheralEnable <US>c:macro@PeripheralEnable<UE> <DS>PeripheralEnable<DE> Extent=<ES>61808:9 - 61809:72<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:16:1: inclusion directive=system.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\system.h<IE>  [multi-include guarded] Extent=<ES>16:1 - 16:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:15:1: inclusion directive=flash.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\driverlib\flash.h<IE>  [multi-include guarded] Extent=<ES>15:1 - 15:19<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:41:9: macro definition=__FLASH_H__ <US>c:macro@__FLASH_H__<UE> <DS>__FLASH_H__<DE> Extent=<ES>41:9 - 41:20<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:74:9: macro definition=FLASH_INT_PROGRAM <US>c:macro@FLASH_INT_PROGRAM<UE> <DS>FLASH_INT_PROGRAM<DE> Extent=<ES>74:9 - 74:41<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:75:9: macro definition=FLASH_INT_ACCESS <US>c:macro@FLASH_INT_ACCESS<UE> <DS>FLASH_INT_ACCESS<DE> Extent=<ES>75:9 - 75:41<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:76:9: macro definition=FLASH_INT_EEPROM <US>c:macro@FLASH_INT_EEPROM<UE> <DS>FLASH_INT_EEPROM<DE> Extent=<ES>76:9 - 76:41<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:77:9: macro definition=FLASH_INT_VOLTAGE_ERR <US>c:macro@FLASH_INT_VOLTAGE_ERR<UE> <DS>FLASH_INT_VOLTAGE_ERR<DE> Extent=<ES>77:9 - 77:41<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:78:9: macro definition=FLASH_INT_DATA_ERR <US>c:macro@FLASH_INT_DATA_ERR<UE> <DS>FLASH_INT_DATA_ERR<DE> Extent=<ES>78:9 - 78:41<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:79:9: macro definition=FLASH_INT_ERASE_ERR <US>c:macro@FLASH_INT_ERASE_ERR<UE> <DS>FLASH_INT_ERASE_ERR<DE> Extent=<ES>79:9 - 79:41<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:80:9: macro definition=FLASH_INT_PROGRAM_ERR <US>c:macro@FLASH_INT_PROGRAM_ERR<UE> <DS>FLASH_INT_PROGRAM_ERR<DE> Extent=<ES>80:9 - 80:41<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:114:9: macro definition=FlashIntGetStatus <US>c:macro@FlashIntGetStatus<UE> <DS>FlashIntGetStatus<DE> Extent=<ES>114:9 - 114:47<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:17:1: inclusion directive=system.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\system.h<IE>  [multi-include guarded] Extent=<ES>17:1 - 17:20<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\system.h:7:9: macro definition=SYSTEM_H <US>c:macro@SYSTEM_H<UE> <DS>SYSTEM_H<DE> Extent=<ES>7:9 - 7:17<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\system.h:12:1: inclusion directive=lm4f120h5qr.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\inc\lm4f120h5qr.h<IE>  [multi-include guarded] Extent=<ES>12:1 - 12:25<EE>
 <L>C:\Git\LM4F120\inc\lm4f120h5qr.h:41:9: macro definition=__LM4F120H5QR_H__ <US>c:macro@__LM4F120H5QR_H__<UE> <DS>__LM4F120H5QR_H__<DE> Extent=<ES>41:9 - 41:26<EE>
@@ -7530,35 +7540,38 @@
 <L>C:\Git\LM4F120\driverlib\sysctl.h:572:9: macro definition=SYSCTL_DSLP_OSC_INT30 <US>c:macro@SYSCTL_DSLP_OSC_INT30<UE> <DS>SYSCTL_DSLP_OSC_INT30<DE> Extent=<ES>572:9 - 572:43<EE>
 <L>C:\Git\LM4F120\driverlib\sysctl.h:573:9: macro definition=SYSCTL_DSLP_OSC_EXT32 <US>c:macro@SYSCTL_DSLP_OSC_EXT32<UE> <DS>SYSCTL_DSLP_OSC_EXT32<DE> Extent=<ES>573:9 - 573:43<EE>
 <L>C:\Git\LM4F120\driverlib\sysctl.h:574:9: macro definition=SYSCTL_DSLP_PIOSC_PD <US>c:macro@SYSCTL_DSLP_PIOSC_PD<UE> <DS>SYSCTL_DSLP_PIOSC_PD<DE> Extent=<ES>574:9 - 574:43<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:17:1: inclusion directive=lightsensor.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h<IE>  [multi-include guarded] Extent=<ES>17:1 - 17:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:18:1: inclusion directive=lightsensor.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h<IE>  [multi-include guarded] Extent=<ES>18:1 - 18:25<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:7:9: macro definition=LIGHTSENSOR_H <US>c:macro@LIGHTSENSOR_H<UE> <DS>LIGHTSENSOR_H<DE> Extent=<ES>7:9 - 7:22<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:12:1: inclusion directive=gpio.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\driverlib\gpio.h<IE>  [multi-include guarded] Extent=<ES>12:1 - 12:18<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:14:1: inclusion directive=system.h <US><UE> <DS><DE> <IS>C:\Git\LM4F120\LightSensor\01.inc\system.h<IE>  [multi-include guarded] Extent=<ES>14:1 - 14:20<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:16:9: macro definition=LIGHTSENSOR_PORT <US>c:macro@LIGHTSENSOR_PORT<UE> <DS>LIGHTSENSOR_PORT<DE> Extent=<ES>16:9 - 16:42<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:17:9: macro definition=LIGHTSENSOR_PIN <US>c:macro@LIGHTSENSOR_PIN<UE> <DS>LIGHTSENSOR_PIN<DE> Extent=<ES>17:9 - 17:37<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:21: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>40:21 - 40:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: macro expansion=ROM_ADCIntClear|C:\Git\LM4F120\driverlib\rom.h:144:9 <US>c:macro@ROM_ADCIntClear<UE> <DS>ROM_ADCIntClear<DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:18: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>45:18 - 45:27<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: macro expansion=ROM_GPIOPinTypeADC|C:\Git\LM4F120\driverlib\rom.h:1763:9 <US>c:macro@ROM_GPIOPinTypeADC<UE> <DS>ROM_GPIOPinTypeADC<DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:21: macro expansion=LIGHTSENSOR_PORT|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:16:9 <US>c:macro@LIGHTSENSOR_PORT<UE> <DS>LIGHTSENSOR_PORT<DE> Extent=<ES>50:21 - 50:37<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:39: macro expansion=LIGHTSENSOR_PIN|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:17:9 <US>c:macro@LIGHTSENSOR_PIN<UE> <DS>LIGHTSENSOR_PIN<DE> Extent=<ES>50:39 - 50:54<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: macro expansion=ROM_ADCSequenceConfigure|C:\Git\LM4F120\driverlib\rom.h:180:9 <US>c:macro@ROM_ADCSequenceConfigure<UE> <DS>ROM_ADCSequenceConfigure<DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:27: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>52:27 - 52:36<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:41: macro expansion=ADC_TRIGGER_PROCESSOR|C:\Git\LM4F120\driverlib\adc.h:60:9 <US>c:macro@ADC_TRIGGER_PROCESSOR<UE> <DS>ADC_TRIGGER_PROCESSOR<DE> Extent=<ES>52:41 - 52:62<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: macro expansion=ROM_ADCSequenceStepConfigure|C:\Git\LM4F120\driverlib\rom.h:194:9 <US>c:macro@ROM_ADCSequenceStepConfigure<UE> <DS>ROM_ADCSequenceStepConfigure<DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:31: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>54:31 - 54:40<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:48: macro expansion=ADC_CTL_CH0|C:\Git\LM4F120\driverlib\adc.h:82:9 <US>c:macro@ADC_CTL_CH0<UE> <DS>ADC_CTL_CH0<DE> Extent=<ES>54:48 - 54:59<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:62: macro expansion=ADC_CTL_IE|C:\Git\LM4F120\driverlib\adc.h:79:9 <US>c:macro@ADC_CTL_IE<UE> <DS>ADC_CTL_IE<DE> Extent=<ES>54:62 - 54:72<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:55:6: macro expansion=ADC_CTL_END|C:\Git\LM4F120\driverlib\adc.h:80:9 <US>c:macro@ADC_CTL_END<UE> <DS>ADC_CTL_END<DE> Extent=<ES>55:6 - 55:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: macro expansion=ROM_ADCSequenceEnable|C:\Git\LM4F120\driverlib\rom.h:156:9 <US>c:macro@ROM_ADCSequenceEnable<UE> <DS>ROM_ADCSequenceEnable<DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:24: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>57:24 - 57:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: macro expansion=ROM_ADCIntEnable|C:\Git\LM4F120\driverlib\rom.h:119:9 <US>c:macro@ROM_ADCIntEnable<UE> <DS>ROM_ADCIntEnable<DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:19: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>59:19 - 59:28<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: macro expansion=ROM_ADCIntClear|C:\Git\LM4F120\driverlib\rom.h:144:9 <US>c:macro@ROM_ADCIntClear<UE> <DS>ROM_ADCIntClear<DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:18: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>61:18 - 61:27<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:17: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>63:17 - 63:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: macro expansion=ROM_ADCProcessorTrigger|C:\Git\LM4F120\driverlib\rom.h:256:9 <US>c:macro@ROM_ADCProcessorTrigger<UE> <DS>ROM_ADCProcessorTrigger<DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:26: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>67:26 - 67:35<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:18:9: macro definition=LIGHT_LO_CAL <US>c:macro@LIGHT_LO_CAL<UE> <DS>LIGHT_LO_CAL<DE> Extent=<ES>18:9 - 18:25<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:19:9: macro definition=LIGHT_HI_CAL <US>c:macro@LIGHT_HI_CAL<UE> <DS>LIGHT_HI_CAL<DE> Extent=<ES>19:9 - 19:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:21: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>45:21 - 45:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: macro expansion=ROM_ADCIntClear|C:\Git\LM4F120\driverlib\rom.h:144:9 <US>c:macro@ROM_ADCIntClear<UE> <DS>ROM_ADCIntClear<DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:18: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>56:18 - 56:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: macro expansion=ROM_GPIOPinTypeADC|C:\Git\LM4F120\driverlib\rom.h:1763:9 <US>c:macro@ROM_GPIOPinTypeADC<UE> <DS>ROM_GPIOPinTypeADC<DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:21: macro expansion=LIGHTSENSOR_PORT|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:16:9 <US>c:macro@LIGHTSENSOR_PORT<UE> <DS>LIGHTSENSOR_PORT<DE> Extent=<ES>61:21 - 61:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:39: macro expansion=LIGHTSENSOR_PIN|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:17:9 <US>c:macro@LIGHTSENSOR_PIN<UE> <DS>LIGHTSENSOR_PIN<DE> Extent=<ES>61:39 - 61:54<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: macro expansion=ROM_ADCSequenceConfigure|C:\Git\LM4F120\driverlib\rom.h:180:9 <US>c:macro@ROM_ADCSequenceConfigure<UE> <DS>ROM_ADCSequenceConfigure<DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:27: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>63:27 - 63:36<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:41: macro expansion=ADC_TRIGGER_PROCESSOR|C:\Git\LM4F120\driverlib\adc.h:60:9 <US>c:macro@ADC_TRIGGER_PROCESSOR<UE> <DS>ADC_TRIGGER_PROCESSOR<DE> Extent=<ES>63:41 - 63:62<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: macro expansion=ROM_ADCSequenceStepConfigure|C:\Git\LM4F120\driverlib\rom.h:194:9 <US>c:macro@ROM_ADCSequenceStepConfigure<UE> <DS>ROM_ADCSequenceStepConfigure<DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:31: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>65:31 - 65:40<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:48: macro expansion=ADC_CTL_CH0|C:\Git\LM4F120\driverlib\adc.h:82:9 <US>c:macro@ADC_CTL_CH0<UE> <DS>ADC_CTL_CH0<DE> Extent=<ES>65:48 - 65:59<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:62: macro expansion=ADC_CTL_IE|C:\Git\LM4F120\driverlib\adc.h:79:9 <US>c:macro@ADC_CTL_IE<UE> <DS>ADC_CTL_IE<DE> Extent=<ES>65:62 - 65:72<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:66:6: macro expansion=ADC_CTL_END|C:\Git\LM4F120\driverlib\adc.h:80:9 <US>c:macro@ADC_CTL_END<UE> <DS>ADC_CTL_END<DE> Extent=<ES>66:6 - 66:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: macro expansion=ROM_ADCSequenceEnable|C:\Git\LM4F120\driverlib\rom.h:156:9 <US>c:macro@ROM_ADCSequenceEnable<UE> <DS>ROM_ADCSequenceEnable<DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:24: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>68:24 - 68:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: macro expansion=ROM_ADCIntEnable|C:\Git\LM4F120\driverlib\rom.h:119:9 <US>c:macro@ROM_ADCIntEnable<UE> <DS>ROM_ADCIntEnable<DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:19: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>70:19 - 70:28<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: macro expansion=ROM_ADCIntClear|C:\Git\LM4F120\driverlib\rom.h:144:9 <US>c:macro@ROM_ADCIntClear<UE> <DS>ROM_ADCIntClear<DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:18: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>72:18 - 72:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:17: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>74:17 - 74:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: macro expansion=ROM_ADCProcessorTrigger|C:\Git\LM4F120\driverlib\rom.h:256:9 <US>c:macro@ROM_ADCProcessorTrigger<UE> <DS>ROM_ADCProcessorTrigger<DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:26: macro expansion=ADC0_BASE|C:\Git\LM4F120\inc\hw_memmap.h:93:9 <US>c:macro@ADC0_BASE<UE> <DS>ADC0_BASE<DE> Extent=<ES>85:26 - 85:35<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:15: macro expansion=LIGHT_LO_CAL|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:18:9 <US>c:macro@LIGHT_LO_CAL<UE> <DS>LIGHT_LO_CAL<DE> Extent=<ES>118:15 - 118:27<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:66:11: StructDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:66:11 (Definition) <US>c:@SA@_VA_LIST<UE> <DS><DE> Extent=<ES>66:11 - 69:4<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:68:11: FieldDecl=_Ap|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\DLib_Product.h:68:11 (Definition) <US>c:@SA@_VA_LIST@FI@_Ap<UE> <DS>_Ap<DE> Extent=<ES>68:5 - 68:14<EE>
@@ -7932,6 +7945,51 @@
 <L>C:\Git\LM4F120\driverlib\gpio.h:173:13: FunctionDecl=GPIOADCTriggerDisable|C:\Git\LM4F120\driverlib\gpio.h:173:13 (Declaration) <US>c:@F@GPIOADCTriggerDisable<UE> <DS>void GPIOADCTriggerDisable(unsigned long, unsigned char)<DE> Extent=<ES>173:1 - 173:78<EE>
 <L>C:\Git\LM4F120\driverlib\gpio.h:173:49: ParmDecl=ulPort|C:\Git\LM4F120\driverlib\gpio.h:173:49 (Definition) <US>c:gpio.h@9485@F@GPIOADCTriggerDisable@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>173:35 - 173:55<EE>
 <L>C:\Git\LM4F120\driverlib\gpio.h:173:71: ParmDecl=ucPins|C:\Git\LM4F120\driverlib\gpio.h:173:71 (Definition) <US>c:gpio.h@9507@F@GPIOADCTriggerDisable@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>173:57 - 173:77<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:60:9: EnumDecl=|C:\Git\LM4F120\driverlib\flash.h:60:9 (Definition) <US>c:@EA@tFlashProtection<UE> <DS><DE> Extent=<ES>60:9 - 65:2<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:62:5: EnumConstantDecl=FlashReadWrite|C:\Git\LM4F120\driverlib\flash.h:62:5 (Definition) <US>c:@EA@tFlashProtection@FlashReadWrite<UE> <DS>FlashReadWrite<DE> Extent=<ES>62:5 - 62:19<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:63:5: EnumConstantDecl=FlashReadOnly|C:\Git\LM4F120\driverlib\flash.h:63:5 (Definition) <US>c:@EA@tFlashProtection@FlashReadOnly<UE> <DS>FlashReadOnly<DE> Extent=<ES>63:5 - 63:18<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:64:5: EnumConstantDecl=FlashExecuteOnly|C:\Git\LM4F120\driverlib\flash.h:64:5 (Definition) <US>c:@EA@tFlashProtection@FlashExecuteOnly<UE> <DS>FlashExecuteOnly<DE> Extent=<ES>64:5 - 64:21<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:66:1: TypedefDecl=tFlashProtection|C:\Git\LM4F120\driverlib\flash.h:66:1 (Definition) <US>c:flash.h@2608@T@tFlashProtection<UE> <DS>enum tFlashProtection<DE> Extent=<ES>60:1 - 66:17<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:60:9: EnumDecl=|C:\Git\LM4F120\driverlib\flash.h:60:9 (Definition) <US>c:@EA@tFlashProtection<UE> <DS><DE> Extent=<ES>60:9 - 65:2<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:62:5: EnumConstantDecl=FlashReadWrite|C:\Git\LM4F120\driverlib\flash.h:62:5 (Definition) <US>c:@EA@tFlashProtection@FlashReadWrite<UE> <DS>FlashReadWrite<DE> Extent=<ES>62:5 - 62:19<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:63:5: EnumConstantDecl=FlashReadOnly|C:\Git\LM4F120\driverlib\flash.h:63:5 (Definition) <US>c:@EA@tFlashProtection@FlashReadOnly<UE> <DS>FlashReadOnly<DE> Extent=<ES>63:5 - 63:18<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:64:5: EnumConstantDecl=FlashExecuteOnly|C:\Git\LM4F120\driverlib\flash.h:64:5 (Definition) <US>c:@EA@tFlashProtection@FlashExecuteOnly<UE> <DS>FlashExecuteOnly<DE> Extent=<ES>64:5 - 64:21<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:87:22: FunctionDecl=FlashUsecGet|C:\Git\LM4F120\driverlib\flash.h:87:22 (Declaration) <US>c:@F@FlashUsecGet<UE> <DS>unsigned long FlashUsecGet(void)<DE> Extent=<ES>87:1 - 87:40<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:88:13: FunctionDecl=FlashUsecSet|C:\Git\LM4F120\driverlib\flash.h:88:13 (Declaration) <US>c:@F@FlashUsecSet<UE> <DS>void FlashUsecSet(unsigned long)<DE> Extent=<ES>88:1 - 88:49<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:88:40: ParmDecl=ulClocks|C:\Git\LM4F120\driverlib\flash.h:88:40 (Definition) <US>c:flash.h@3934@F@FlashUsecSet@ulClocks<UE> <DS>unsigned long<DE> Extent=<ES>88:26 - 88:48<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:89:13: FunctionDecl=FlashErase|C:\Git\LM4F120\driverlib\flash.h:89:13 (Declaration) <US>c:@F@FlashErase<UE> <DS>long FlashErase(unsigned long)<DE> Extent=<ES>89:1 - 89:48<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:89:38: ParmDecl=ulAddress|C:\Git\LM4F120\driverlib\flash.h:89:38 (Definition) <US>c:flash.h@3983@F@FlashErase@ulAddress<UE> <DS>unsigned long<DE> Extent=<ES>89:24 - 89:47<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:90:13: FunctionDecl=FlashProgram|C:\Git\LM4F120\driverlib\flash.h:90:13 (Declaration) <US>c:@F@FlashProgram<UE> <DS>long FlashProgram(unsigned long *, unsigned long, unsigned long)<DE> Extent=<ES>90:1 - 91:48<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:90:41: ParmDecl=pulData|C:\Git\LM4F120\driverlib\flash.h:90:41 (Definition) <US>c:flash.h@4035@F@FlashProgram@pulData<UE> <DS>unsigned long *<DE> Extent=<ES>90:26 - 90:48<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:90:64: ParmDecl=ulAddress|C:\Git\LM4F120\driverlib\flash.h:90:64 (Definition) <US>c:flash.h@4059@F@FlashProgram@ulAddress<UE> <DS>unsigned long<DE> Extent=<ES>90:50 - 90:73<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:91:40: ParmDecl=ulCount|C:\Git\LM4F120\driverlib\flash.h:91:40 (Definition) <US>c:flash.h@4110@F@FlashProgram@ulCount<UE> <DS>unsigned long<DE> Extent=<ES>91:26 - 91:47<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:92:25: FunctionDecl=FlashProtectGet|C:\Git\LM4F120\driverlib\flash.h:92:25 (Declaration) <US>c:@F@FlashProtectGet<UE> <DS>tFlashProtection FlashProtectGet(unsigned long)<DE> Extent=<ES>92:1 - 92:65<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:92:8: TypeRef=tFlashProtection|C:\Git\LM4F120\driverlib\flash.h:66:1 (Reference) <US>c:flash.h@2608@T@tFlashProtection<UE> <DS>enum tFlashProtection<DE> Extent=<ES>92:8 - 92:24<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:92:55: ParmDecl=ulAddress|C:\Git\LM4F120\driverlib\flash.h:92:55 (Definition) <US>c:flash.h@4175@F@FlashProtectGet@ulAddress<UE> <DS>unsigned long<DE> Extent=<ES>92:41 - 92:64<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:93:13: FunctionDecl=FlashProtectSet|C:\Git\LM4F120\driverlib\flash.h:93:13 (Declaration) <US>c:@F@FlashProtectSet<UE> <DS>long FlashProtectSet(unsigned long, tFlashProtection)<DE> Extent=<ES>93:1 - 94:55<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:93:43: ParmDecl=ulAddress|C:\Git\LM4F120\driverlib\flash.h:93:43 (Definition) <US>c:flash.h@4230@F@FlashProtectSet@ulAddress<UE> <DS>unsigned long<DE> Extent=<ES>93:29 - 93:52<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:94:46: ParmDecl=eProtect|C:\Git\LM4F120\driverlib\flash.h:94:46 (Definition) <US>c:flash.h@4284@F@FlashProtectSet@eProtect<UE> <DS>tFlashProtection<DE> Extent=<ES>94:29 - 94:54<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:94:29: TypeRef=tFlashProtection|C:\Git\LM4F120\driverlib\flash.h:66:1 (Reference) <US>c:flash.h@2608@T@tFlashProtection<UE> <DS>enum tFlashProtection<DE> Extent=<ES>94:29 - 94:45<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:95:13: FunctionDecl=FlashProtectSave|C:\Git\LM4F120\driverlib\flash.h:95:13 (Declaration) <US>c:@F@FlashProtectSave<UE> <DS>long FlashProtectSave(void)<DE> Extent=<ES>95:1 - 95:35<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:96:13: FunctionDecl=FlashUserGet|C:\Git\LM4F120\driverlib\flash.h:96:13 (Declaration) <US>c:@F@FlashUserGet<UE> <DS>long FlashUserGet(unsigned long *, unsigned long *)<DE> Extent=<ES>96:1 - 96:75<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:96:41: ParmDecl=pulUser0|C:\Git\LM4F120\driverlib\flash.h:96:41 (Definition) <US>c:flash.h@4375@F@FlashUserGet@pulUser0<UE> <DS>unsigned long *<DE> Extent=<ES>96:26 - 96:49<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:96:66: ParmDecl=pulUser1|C:\Git\LM4F120\driverlib\flash.h:96:66 (Definition) <US>c:flash.h@4400@F@FlashUserGet@pulUser1<UE> <DS>unsigned long *<DE> Extent=<ES>96:51 - 96:74<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:97:13: FunctionDecl=FlashUserSet|C:\Git\LM4F120\driverlib\flash.h:97:13 (Declaration) <US>c:@F@FlashUserSet<UE> <DS>long FlashUserSet(unsigned long, unsigned long)<DE> Extent=<ES>97:1 - 97:71<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:97:40: ParmDecl=ulUser0|C:\Git\LM4F120\driverlib\flash.h:97:40 (Definition) <US>c:flash.h@4452@F@FlashUserSet@ulUser0<UE> <DS>unsigned long<DE> Extent=<ES>97:26 - 97:47<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:97:63: ParmDecl=ulUser1|C:\Git\LM4F120\driverlib\flash.h:97:63 (Definition) <US>c:flash.h@4475@F@FlashUserSet@ulUser1<UE> <DS>unsigned long<DE> Extent=<ES>97:49 - 97:70<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:98:13: FunctionDecl=FlashUserSave|C:\Git\LM4F120\driverlib\flash.h:98:13 (Declaration) <US>c:@F@FlashUserSave<UE> <DS>long FlashUserSave(void)<DE> Extent=<ES>98:1 - 98:32<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:99:13: FunctionDecl=FlashIntRegister|C:\Git\LM4F120\driverlib\flash.h:99:13 (Declaration) <US>c:@F@FlashIntRegister<UE> <DS>void FlashIntRegister(void (*)(void))<DE> Extent=<ES>99:1 - 99:55<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:99:37: ParmDecl=pfnHandler|C:\Git\LM4F120\driverlib\flash.h:99:37 (Definition) <US>c:flash.h@4563@F@FlashIntRegister@pfnHandler<UE> <DS>void (*)(void)<DE> Extent=<ES>99:30 - 99:54<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:100:13: FunctionDecl=FlashIntUnregister|C:\Git\LM4F120\driverlib\flash.h:100:13 (Declaration) <US>c:@F@FlashIntUnregister<UE> <DS>void FlashIntUnregister(void)<DE> Extent=<ES>100:1 - 100:37<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:101:13: FunctionDecl=FlashIntEnable|C:\Git\LM4F120\driverlib\flash.h:101:13 (Declaration) <US>c:@F@FlashIntEnable<UE> <DS>void FlashIntEnable(unsigned long)<DE> Extent=<ES>101:1 - 101:53<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:101:42: ParmDecl=ulIntFlags|C:\Git\LM4F120\driverlib\flash.h:101:42 (Definition) <US>c:flash.h@4657@F@FlashIntEnable@ulIntFlags<UE> <DS>unsigned long<DE> Extent=<ES>101:28 - 101:52<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:102:13: FunctionDecl=FlashIntDisable|C:\Git\LM4F120\driverlib\flash.h:102:13 (Declaration) <US>c:@F@FlashIntDisable<UE> <DS>void FlashIntDisable(unsigned long)<DE> Extent=<ES>102:1 - 102:54<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:102:43: ParmDecl=ulIntFlags|C:\Git\LM4F120\driverlib\flash.h:102:43 (Definition) <US>c:flash.h@4713@F@FlashIntDisable@ulIntFlags<UE> <DS>unsigned long<DE> Extent=<ES>102:29 - 102:53<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:103:22: FunctionDecl=FlashIntStatus|C:\Git\LM4F120\driverlib\flash.h:103:22 (Declaration) <US>c:@F@FlashIntStatus<UE> <DS>unsigned long FlashIntStatus(tBoolean)<DE> Extent=<ES>103:1 - 103:54<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:103:46: ParmDecl=bMasked|C:\Git\LM4F120\driverlib\flash.h:103:46 (Definition) <US>c:flash.h@4777@F@FlashIntStatus@bMasked<UE> <DS>tBoolean<DE> Extent=<ES>103:37 - 103:53<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:103:37: TypeRef=tBoolean|C:\Git\LM4F120\inc\hw_types.h:48:23 (Reference) <US>c:hw_types.h@2262@T@tBoolean<UE> <DS>unsigned char<DE> Extent=<ES>103:37 - 103:45<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:104:13: FunctionDecl=FlashIntClear|C:\Git\LM4F120\driverlib\flash.h:104:13 (Declaration) <US>c:@F@FlashIntClear<UE> <DS>void FlashIntClear(unsigned long)<DE> Extent=<ES>104:1 - 104:52<EE>
+<L>C:\Git\LM4F120\driverlib\flash.h:104:41: ParmDecl=ulIntFlags|C:\Git\LM4F120\driverlib\flash.h:104:41 (Definition) <US>c:flash.h@4823@F@FlashIntClear@ulIntFlags<UE> <DS>unsigned long<DE> Extent=<ES>104:27 - 104:51<EE>
 <L>C:\Git\LM4F120\driverlib\sysctl.h:581:22: FunctionDecl=SysCtlSRAMSizeGet|C:\Git\LM4F120\driverlib\sysctl.h:581:22 (Declaration) <US>c:@F@SysCtlSRAMSizeGet<UE> <DS>unsigned long SysCtlSRAMSizeGet(void)<DE> Extent=<ES>581:1 - 581:45<EE>
 <L>C:\Git\LM4F120\driverlib\sysctl.h:582:22: FunctionDecl=SysCtlFlashSizeGet|C:\Git\LM4F120\driverlib\sysctl.h:582:22 (Declaration) <US>c:@F@SysCtlFlashSizeGet<UE> <DS>unsigned long SysCtlFlashSizeGet(void)<DE> Extent=<ES>582:1 - 582:46<EE>
 <L>C:\Git\LM4F120\driverlib\sysctl.h:583:17: FunctionDecl=SysCtlPinPresent|C:\Git\LM4F120\driverlib\sysctl.h:583:17 (Declaration) <US>c:@F@SysCtlPinPresent<UE> <DS>tBoolean SysCtlPinPresent(unsigned long)<DE> Extent=<ES>583:1 - 583:54<EE>
@@ -8028,250 +8086,391 @@
 <L>C:\Git\LM4F120\driverlib\sysctl.h:631:53: ParmDecl=ulMClk|C:\Git\LM4F120\driverlib\sysctl.h:631:53 (Definition) <US>c:sysctl.h@38646@F@SysCtlI2SMClkSet@ulMClk<UE> <DS>unsigned long<DE> Extent=<ES>631:39 - 631:59<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\system.h:29:14: TypedefDecl=SystickCallBack_t|C:\Git\LM4F120\LightSensor\01.inc\system.h:29:14 (Definition) <US>c:system.h@1044@T@SystickCallBack_t<UE> <DS>void (void)<DE> Extent=<ES>29:1 - 29:37<EE>
 <L>C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6: FunctionDecl=SystemTickInit|C:\Git\LM4F120\LightSensor\01.inc\system.h:33:6 (Declaration) <US>c:@F@SystemTickInit<UE> <DS>void SystemTickInit(void)<DE> Extent=<ES>33:1 - 33:26<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:29:6: FunctionDecl=LightSensorInit|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:48:6 (Declaration) <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>29:1 - 29:27<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:30:6: FunctionDecl=StartLightSensor|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:66:6 (Declaration) <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>30:1 - 30:28<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:6: FunctionDecl=GetLightIntensity|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:6 (Declaration) <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>31:1 - 31:38<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:33: ParmDecl=Data|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:33 (Definition) <US>c:lightsensor.h@1290@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>31:24 - 31:37<EE>
-<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:24: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>31:24 - 31:31<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:10: VarDecl=LigthIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:10 (Definition) <US>c:@LigthIntensityValue<UE> <DS>LigthIntensityValue<DE> Extent=<ES>29:1 - 29:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:1: TypeRef=uint32_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>29:1 - 29:9<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>29:32 - 29:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:32 - 29:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:36:6: FunctionDecl=LightSensorIntHandler|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:36:6 (Definition) <US>c:@F@LightSensorIntHandler<UE> <DS>void LightSensorIntHandler(void)<DE> Extent=<ES>36:1 - 46:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:36:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>36:34 - 46:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:2: CallExpr=ADCSequenceDataGet|C:\Git\LM4F120\driverlib\adc.h:263:13 <US>c:@F@ADCSequenceDataGet<UE> <DS>long ADCSequenceDataGet(unsigned long, unsigned long, unsigned long *)<DE> Extent=<ES>40:2 - 40:58<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:2: UnexposedExpr=ADCSequenceDataGet|C:\Git\LM4F120\driverlib\adc.h:263:13 <US>c:@F@ADCSequenceDataGet<UE> <DS>long ADCSequenceDataGet(unsigned long, unsigned long, unsigned long *)<DE> Extent=<ES>40:2 - 40:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:2: DeclRefExpr=ADCSequenceDataGet|C:\Git\LM4F120\driverlib\adc.h:263:13 (Reference) <US>c:@F@ADCSequenceDataGet<UE> <DS>long ADCSequenceDataGet(unsigned long, unsigned long, unsigned long *)<DE> Extent=<ES>40:2 - 40:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>40:21 - 40:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:21 - 40:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>40:32 - 40:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:32 - 40:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>40:35 - 40:57<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:35: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>40:35 - 40:57<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:36: ParenExpr= <US><UE> <DS><DE> Extent=<ES>40:36 - 40:57<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:40:37: DeclRefExpr=LigthIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:10 (Reference) <US>c:@LigthIntensityValue<UE> <DS>LigthIntensityValue<DE> Extent=<ES>40:37 - 40:56<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:31<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:2 - 45:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:18 - 45:27<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:18 - 45:27<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:29 - 45:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:29 - 45:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:48:6: FunctionDecl=LightSensorInit|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:48:6 (Definition) <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>48:1 - 64:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:48:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>48:28 - 64:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:55<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ParmDecl=ulPort|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2 (Definition) <US>c:@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ParmDecl=ucPins|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2 (Definition) <US>c:@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:2 - 50:20<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>50:21 - 50:37<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:21 - 50:37<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>50:39 - 50:54<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:39 - 50:54<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:66<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParmDecl=ulTrigger|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2 (Definition) <US>c:@ulTrigger<UE> <DS>unsigned long<DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParmDecl=ulPriority|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2 (Definition) <US>c:@ulPriority<UE> <DS>unsigned long<DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:2 - 52:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>52:27 - 52:36<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:27 - 52:36<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>52:38 - 52:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:38 - 52:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>52:41 - 52:62<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:41 - 52:62<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:64: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>52:64 - 52:65<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:52:64: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:64 - 52:65<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 55:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParmDecl=ulStep|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2 (Definition) <US>c:@ulStep<UE> <DS>unsigned long<DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParmDecl=ulConfig|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2 (Definition) <US>c:@ulConfig<UE> <DS>unsigned long<DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:2 - 54:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:31 - 54:40<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:31 - 54:40<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:42: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:42 - 54:43<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:42 - 54:43<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:45 - 54:46<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:45 - 54:46<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:48 - 55:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:48: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:48 - 55:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:48: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:48 - 54:72<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:48 - 54:59<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:54:62: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:62 - 54:72<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:55:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:6 - 55:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:37<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:2 - 57:23<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:24 - 57:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:24 - 57:33<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:35 - 57:36<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:57:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:35 - 57:36<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:32<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:18<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:19 - 59:28<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:19 - 59:28<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:30 - 59:31<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:30 - 59:31<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:31<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:18 - 61:27<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:18 - 61:27<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:29 - 61:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:29 - 61:30<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: CallExpr=ADCIntRegister|C:\Git\LM4F120\driverlib\adc.h:233:13 <US>c:@F@ADCIntRegister<UE> <DS>void ADCIntRegister(unsigned long, unsigned long, void (*)(void))<DE> Extent=<ES>63:2 - 63:53<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: UnexposedExpr=ADCIntRegister|C:\Git\LM4F120\driverlib\adc.h:233:13 <US>c:@F@ADCIntRegister<UE> <DS>void ADCIntRegister(unsigned long, unsigned long, void (*)(void))<DE> Extent=<ES>63:2 - 63:16<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: DeclRefExpr=ADCIntRegister|C:\Git\LM4F120\driverlib\adc.h:233:13 (Reference) <US>c:@F@ADCIntRegister<UE> <DS>void ADCIntRegister(unsigned long, unsigned long, void (*)(void))<DE> Extent=<ES>63:2 - 63:16<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:17 - 63:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:17 - 63:26<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:28 - 63:29<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:28 - 63:29<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:31: UnexposedExpr=LightSensorIntHandler|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:36:6 <US>c:@F@LightSensorIntHandler<UE> <DS>void LightSensorIntHandler(void)<DE> Extent=<ES>63:31 - 63:52<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:31: DeclRefExpr=LightSensorIntHandler|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:36:6 (Reference) <US>c:@F@LightSensorIntHandler<UE> <DS>void LightSensorIntHandler(void)<DE> Extent=<ES>63:31 - 63:52<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:66:6: FunctionDecl=StartLightSensor|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:66:6 (Definition) <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>66:1 - 68:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:66:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>66:29 - 68:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:25<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:26 - 67:35<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:26 - 67:35<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:37 - 67:38<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:67:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:37 - 67:38<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:6: FunctionDecl=GetLightIntensity|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:6 (Definition) <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>77:1 - 82:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:33: ParmDecl=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:33 (Definition) <US>c:lightSensor.c@2425@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>77:24 - 77:37<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:24: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>77:24 - 77:31<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>77:39 - 82:2<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>78:2 - 78:15<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:10: VarDecl=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:10 (Definition) <US>c:lightSensor.c@2444@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>78:2 - 78:14<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:2: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>78:2 - 78:9<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:2 - 79:50<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:2: DeclRefExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:10 (Reference) <US>c:lightSensor.c@2444@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>79:2 - 79:6<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:9: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>79:9 - 79:50<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:10: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>79:10 - 79:17<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>79:18 - 79:50<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:19 - 79:49<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>79:19 - 79:44<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:20 - 79:43<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:20: UnexposedExpr=LigthIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:10 <US>c:@LigthIntensityValue<UE> <DS>LigthIntensityValue<DE> Extent=<ES>79:20 - 79:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:20: DeclRefExpr=LigthIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:29:10 (Reference) <US>c:@LigthIntensityValue<UE> <DS>LigthIntensityValue<DE> Extent=<ES>79:20 - 79:39<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:40 - 79:43<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:40 - 79:43<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:45 - 79:49<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:79:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:45 - 79:49<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:80:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>80:2 - 80:16<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:80:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>80:2 - 80:9<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:80:2: UnexposedExpr=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:33 <US>c:lightSensor.c@2425@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>80:2 - 80:6<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:80:2: DeclRefExpr=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:33 (Reference) <US>c:lightSensor.c@2425@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>80:2 - 80:6<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:80:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:7 - 80:8<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:80:12: UnexposedExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:10 <US>c:lightSensor.c@2444@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>80:12 - 80:16<EE>
-<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:80:12: DeclRefExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:10 (Reference) <US>c:lightSensor.c@2444@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>80:12 - 80:16<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:31:6: FunctionDecl=LightSensorInit|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:6 (Declaration) <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>31:1 - 31:27<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:32:6: FunctionDecl=StartLightSensor|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:84:6 (Declaration) <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>32:1 - 32:28<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:33:6: FunctionDecl=GetLightIntensity|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:6 (Declaration) <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>33:1 - 33:38<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:33:33: ParmDecl=Data|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:33:33 (Definition) <US>c:lightsensor.h@1342@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>33:24 - 33:37<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:33:24: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>33:24 - 33:31<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:34:6: FunctionDecl=CalibrateIntensity|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:6 (Declaration) <US>c:@F@CalibrateIntensity<UE> <DS>void CalibrateIntensity(uint8_t, uint8_t)<DE> Extent=<ES>34:1 - 34:51<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:34:33: ParmDecl=type|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:34:33 (Definition) <US>c:lightsensor.h@1383@F@CalibrateIntensity@type<UE> <DS>uint8_t<DE> Extent=<ES>34:25 - 34:37<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:34:25: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>34:25 - 34:32<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:34:47: ParmDecl=rst|C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:34:47 (Definition) <US>c:lightsensor.h@1397@F@CalibrateIntensity@rst<UE> <DS>uint8_t<DE> Extent=<ES>34:39 - 34:50<EE>
+<L>C:\Git\LM4F120\LightSensor\01.inc\lightsensor.h:34:39: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>34:39 - 34:46<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10: VarDecl=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Declaration) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>30:1 - 30:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:1: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>30:1 - 30:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10: VarDecl=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 (Declaration) <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>31:1 - 31:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:1: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>31:1 - 31:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10: VarDecl=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 (Declaration) <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>32:1 - 32:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:1: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>32:1 - 32:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10: VarDecl=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Definition) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>33:1 - 33:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:1: TypeRef=uint32_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>33:1 - 33:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:32 - 33:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:32 - 33:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:41:6: FunctionDecl=LightSensorIntHandler|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:41:6 (Definition) <US>c:@F@LightSensorIntHandler<UE> <DS>void LightSensorIntHandler(void)<DE> Extent=<ES>41:1 - 57:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:41:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>41:34 - 57:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: CallExpr=ADCSequenceDataGet|C:\Git\LM4F120\driverlib\adc.h:263:13 <US>c:@F@ADCSequenceDataGet<UE> <DS>long ADCSequenceDataGet(unsigned long, unsigned long, unsigned long *)<DE> Extent=<ES>45:2 - 45:58<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: UnexposedExpr=ADCSequenceDataGet|C:\Git\LM4F120\driverlib\adc.h:263:13 <US>c:@F@ADCSequenceDataGet<UE> <DS>long ADCSequenceDataGet(unsigned long, unsigned long, unsigned long *)<DE> Extent=<ES>45:2 - 45:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:2: DeclRefExpr=ADCSequenceDataGet|C:\Git\LM4F120\driverlib\adc.h:263:13 (Reference) <US>c:@F@ADCSequenceDataGet<UE> <DS>long ADCSequenceDataGet(unsigned long, unsigned long, unsigned long *)<DE> Extent=<ES>45:2 - 45:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:21 - 45:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:21 - 45:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:32 - 45:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:32 - 45:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:35 - 45:57<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:35: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>45:35 - 45:57<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:36: ParenExpr= <US><UE> <DS><DE> Extent=<ES>45:36 - 45:57<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:45:37: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>45:37 - 45:56<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>46:2 - 51:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>46:5 - 46:39<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:5: UnexposedExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>46:5 - 46:24<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:5: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>46:5 - 46:24<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:27: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>46:27 - 46:39<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:27: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>46:27 - 46:39<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:27: DeclRefExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Reference) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>46:27 - 46:39<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:46:42: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>46:42 - 48:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:47:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:3 - 47:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:47:3: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>47:3 - 47:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:47:25: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>47:25 - 47:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:47:25: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>47:25 - 47:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:47:25: DeclRefExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Reference) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>47:25 - 47:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>49:7 - 51:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>49:10 - 49:44<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:10: UnexposedExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>49:10 - 49:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:10: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>49:10 - 49:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:32: UnexposedExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>49:32 - 49:44<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:32: UnexposedExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>49:32 - 49:44<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:32: DeclRefExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 (Reference) <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>49:32 - 49:44<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:49:46: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>49:46 - 51:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>50:3 - 50:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:3: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>50:3 - 50:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:25: UnexposedExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>50:25 - 50:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:25: UnexposedExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>50:25 - 50:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:50:25: DeclRefExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 (Reference) <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>50:25 - 50:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:31<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:2 - 56:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:18 - 56:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:18 - 56:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:29 - 56:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:56:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:29 - 56:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:6: FunctionDecl=LightSensorInit|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:6 (Definition) <US>c:@F@LightSensorInit<UE> <DS>void LightSensorInit(void)<DE> Extent=<ES>59:1 - 82:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:59:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>59:28 - 82:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:55<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParmDecl=ulPort|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2 (Definition) <US>c:@ulPort<UE> <DS>unsigned long<DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParmDecl=ucPins|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2 (Definition) <US>c:@ucPins<UE> <DS>unsigned char<DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:2 - 61:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:21 - 61:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:21 - 61:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:39 - 61:54<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:61:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:39 - 61:54<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:66<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParmDecl=ulTrigger|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2 (Definition) <US>c:@ulTrigger<UE> <DS>unsigned long<DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParmDecl=ulPriority|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2 (Definition) <US>c:@ulPriority<UE> <DS>unsigned long<DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:2 - 63:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:27 - 63:36<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:27 - 63:36<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:38 - 63:39<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:38 - 63:39<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:41 - 63:62<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:41 - 63:62<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:64: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:64 - 63:65<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:63:64: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:64 - 63:65<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 66:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParmDecl=ulStep|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2 (Definition) <US>c:@ulStep<UE> <DS>unsigned long<DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParmDecl=ulConfig|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2 (Definition) <US>c:@ulConfig<UE> <DS>unsigned long<DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:2 - 65:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:31 - 65:40<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:31 - 65:40<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:42: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:42 - 65:43<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:42 - 65:43<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:45 - 65:46<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:45 - 65:46<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:48 - 66:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:48: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:48 - 66:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:48: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:48 - 65:72<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:48 - 65:59<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:65:62: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:62 - 65:72<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:66:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:6 - 66:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:23<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:24 - 68:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:24 - 68:33<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:35 - 68:36<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:68:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:35 - 68:36<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:32<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>70:19 - 70:28<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:19 - 70:28<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>70:30 - 70:31<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:70:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:30 - 70:31<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:31<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>72:2 - 72:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>72:18 - 72:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>72:18 - 72:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>72:29 - 72:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:72:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>72:29 - 72:30<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:2: CallExpr=ADCIntRegister|C:\Git\LM4F120\driverlib\adc.h:233:13 <US>c:@F@ADCIntRegister<UE> <DS>void ADCIntRegister(unsigned long, unsigned long, void (*)(void))<DE> Extent=<ES>74:2 - 74:53<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:2: UnexposedExpr=ADCIntRegister|C:\Git\LM4F120\driverlib\adc.h:233:13 <US>c:@F@ADCIntRegister<UE> <DS>void ADCIntRegister(unsigned long, unsigned long, void (*)(void))<DE> Extent=<ES>74:2 - 74:16<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:2: DeclRefExpr=ADCIntRegister|C:\Git\LM4F120\driverlib\adc.h:233:13 (Reference) <US>c:@F@ADCIntRegister<UE> <DS>void ADCIntRegister(unsigned long, unsigned long, void (*)(void))<DE> Extent=<ES>74:2 - 74:16<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>74:17 - 74:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>74:17 - 74:26<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>74:28 - 74:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>74:28 - 74:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:31: UnexposedExpr=LightSensorIntHandler|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:41:6 <US>c:@F@LightSensorIntHandler<UE> <DS>void LightSensorIntHandler(void)<DE> Extent=<ES>74:31 - 74:52<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:74:31: DeclRefExpr=LightSensorIntHandler|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:41:6 (Reference) <US>c:@F@LightSensorIntHandler<UE> <DS>void LightSensorIntHandler(void)<DE> Extent=<ES>74:31 - 74:52<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:76:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>76:2 - 76:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:76:2: DeclRefExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 (Reference) <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>76:2 - 76:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:76:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:17 - 76:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:76:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:17 - 76:21<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>77:2 - 77:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:2: DeclRefExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 (Reference) <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>77:2 - 77:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>77:14 - 77:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:77:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:14 - 77:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>78:2 - 78:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:2: DeclRefExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Reference) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>78:2 - 78:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>78:17 - 78:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:78:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:17 - 78:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:84:6: FunctionDecl=StartLightSensor|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:84:6 (Definition) <US>c:@F@StartLightSensor<UE> <DS>void StartLightSensor(void)<DE> Extent=<ES>84:1 - 86:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:84:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>84:29 - 86:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: CallExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:39<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ParmDecl=ulBase|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2 (Definition) <US>c:@ulBase<UE> <DS>unsigned long<DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ParmDecl=ulSequenceNum|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2 (Definition) <US>c:@ulSequenceNum<UE> <DS>unsigned long<DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: ParenExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:2: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:2 - 85:25<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:26 - 85:35<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:26 - 85:35<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:37 - 85:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:85:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:37 - 85:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:6: FunctionDecl=GetLightIntensity|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:6 (Definition) <US>c:@F@GetLightIntensity<UE> <DS>void GetLightIntensity(uint8_t *)<DE> Extent=<ES>95:1 - 114:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:33: ParmDecl=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:33 (Definition) <US>c:lightSensor.c@2796@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>95:24 - 95:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:24: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>95:24 - 95:31<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>95:39 - 114:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>96:2 - 96:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10: VarDecl=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 (Definition) <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>96:2 - 96:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:2: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>96:2 - 96:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>97:2 - 97:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:11: VarDecl=rawData|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:11 (Definition) <US>c:lightSensor.c@2831@F@GetLightIntensity@rawData<UE> <DS>rawData<DE> Extent=<ES>97:2 - 97:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:2: TypeRef=uint16_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:22:29 (Reference) <US>c:stdint.h@473@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>97:2 - 97:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:99:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>99:2 - 112:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:99:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:6 - 99:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:99:6: UnexposedExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>99:6 - 99:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:99:6: UnexposedExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>99:6 - 99:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:99:6: DeclRefExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 (Reference) <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>99:6 - 99:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:99:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:19 - 99:20<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:99:22: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>99:22 - 109:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:3 - 100:47<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:3: DeclRefExpr=rawData|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:11 (Reference) <US>c:lightSensor.c@2831@F@GetLightIntensity@rawData<UE> <DS>rawData<DE> Extent=<ES>100:3 - 100:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:13 - 100:47<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:13 - 100:47<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:13: UnexposedExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>100:13 - 100:32<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:13: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>100:13 - 100:32<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:35: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>100:35 - 100:47<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:35: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>100:35 - 100:47<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:100:35: DeclRefExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Reference) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>100:35 - 100:47<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:49<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:3: DeclRefExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 (Reference) <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>101:3 - 101:7<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:10: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>101:10 - 101:49<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:11: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>101:11 - 101:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>101:20 - 101:49<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:21 - 101:48<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>101:21 - 101:36<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:22 - 101:35<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:22: UnexposedExpr=rawData|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:11 <US>c:lightSensor.c@2831@F@GetLightIntensity@rawData<UE> <DS>rawData<DE> Extent=<ES>101:22 - 101:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:22: UnexposedExpr=rawData|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:11 <US>c:lightSensor.c@2831@F@GetLightIntensity@rawData<UE> <DS>rawData<DE> Extent=<ES>101:22 - 101:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:22: DeclRefExpr=rawData|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:97:11 (Reference) <US>c:lightSensor.c@2831@F@GetLightIntensity@rawData<UE> <DS>rawData<DE> Extent=<ES>101:22 - 101:29<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:32 - 101:35<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:39: UnexposedExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>101:39 - 101:48<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:39: UnexposedExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>101:39 - 101:48<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:101:39: DeclRefExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 (Reference) <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>101:39 - 101:48<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:102:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>102:3 - 107:4<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:102:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>102:6 - 102:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:102:6: UnexposedExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>102:6 - 102:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:102:6: UnexposedExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>102:6 - 102:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:102:6: DeclRefExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 (Reference) <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>102:6 - 102:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:102:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:14 - 102:17<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:102:19: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>102:19 - 104:4<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:103:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>103:4 - 103:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:103:4: DeclRefExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 (Reference) <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>103:4 - 103:8<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:103:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>103:11 - 103:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:103:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>103:11 - 103:13<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:105:8: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>105:8 - 107:4<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:106:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>106:4 - 106:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:106:4: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>106:4 - 106:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:106:4: UnexposedExpr=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:33 <US>c:lightSensor.c@2796@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>106:4 - 106:8<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:106:4: DeclRefExpr=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:33 (Reference) <US>c:lightSensor.c@2796@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>106:4 - 106:8<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:106:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>106:9 - 106:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:106:14: UnexposedExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>106:14 - 106:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:106:14: DeclRefExpr=temp|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:96:10 (Reference) <US>c:lightSensor.c@2815@F@GetLightIntensity@temp<UE> <DS>temp<DE> Extent=<ES>106:14 - 106:18<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:110:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>110:7 - 112:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:111:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:111:3: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>111:3 - 111:10<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:111:3: UnexposedExpr=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:33 <US>c:lightSensor.c@2796@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>111:3 - 111:7<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:111:3: DeclRefExpr=Data|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:95:33 (Reference) <US>c:lightSensor.c@2796@F@GetLightIntensity@Data<UE> <DS>uint8_t *<DE> Extent=<ES>111:3 - 111:7<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:111:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:8 - 111:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:111:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:13 - 111:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:111:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:13 - 111:14<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:6: FunctionDecl=CalibrateIntensity|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:6 (Definition) <US>c:@F@CalibrateIntensity<UE> <DS>void CalibrateIntensity(uint8_t, uint8_t)<DE> Extent=<ES>116:1 - 131:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:33: ParmDecl=type|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:33 (Definition) <US>c:lightSensor.c@3133@F@CalibrateIntensity@type<UE> <DS>uint8_t<DE> Extent=<ES>116:25 - 116:37<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:25: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>116:25 - 116:32<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:47: ParmDecl=rst|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:47 (Definition) <US>c:lightSensor.c@3147@F@CalibrateIntensity@rst<UE> <DS>uint8_t<DE> Extent=<ES>116:39 - 116:50<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:39: TypeRef=uint8_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>116:39 - 116:46<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:52: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>116:52 - 131:2<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:117:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>117:2 - 130:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:117:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>117:5 - 117:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:117:6: UnexposedExpr=rst|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:47 <US>c:lightSensor.c@3147@F@CalibrateIntensity@rst<UE> <DS>uint8_t<DE> Extent=<ES>117:6 - 117:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:117:6: DeclRefExpr=rst|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:47 (Reference) <US>c:lightSensor.c@3147@F@CalibrateIntensity@rst<UE> <DS>uint8_t<DE> Extent=<ES>117:6 - 117:9<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:117:11: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>117:11 - 125:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>118:3 - 123:4<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>118:7 - 118:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:7: UnexposedExpr=type|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:33 <US>c:lightSensor.c@3133@F@CalibrateIntensity@type<UE> <DS>uint8_t<DE> Extent=<ES>118:7 - 118:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:7: UnexposedExpr=type|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:33 <US>c:lightSensor.c@3133@F@CalibrateIntensity@type<UE> <DS>uint8_t<DE> Extent=<ES>118:7 - 118:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:7: DeclRefExpr=type|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:116:33 (Reference) <US>c:lightSensor.c@3133@F@CalibrateIntensity@type<UE> <DS>uint8_t<DE> Extent=<ES>118:7 - 118:11<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>118:15 - 118:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:118:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>118:29 - 120:4<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:119:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>119:4 - 119:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:119:4: DeclRefExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Reference) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>119:4 - 119:16<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:119:19: UnexposedExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>119:19 - 119:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:119:19: UnexposedExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>119:19 - 119:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:119:19: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>119:19 - 119:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:121:8: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>121:8 - 123:4<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:122:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>122:4 - 122:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:122:4: DeclRefExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 (Reference) <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>122:4 - 122:16<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:122:19: UnexposedExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>122:19 - 122:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:122:19: UnexposedExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>122:19 - 122:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:122:19: DeclRefExpr=LightIntensityValue|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:33:10 (Reference) <US>c:@LightIntensityValue<UE> <DS>LightIntensityValue<DE> Extent=<ES>122:19 - 122:38<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>124:3 - 124:42<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:3: DeclRefExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 (Reference) <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>124:3 - 124:12<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>124:15 - 124:42<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>124:15 - 124:42<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:15: UnexposedExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>124:15 - 124:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:15: UnexposedExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>124:15 - 124:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:15: DeclRefExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 (Reference) <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>124:15 - 124:27<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:30: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>124:30 - 124:42<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:30: UnexposedExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>124:30 - 124:42<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:124:30: DeclRefExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Reference) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>124:30 - 124:42<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:126:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>126:7 - 130:3<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:127:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>127:3 - 127:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:127:3: DeclRefExpr=IntensityMax|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:31:10 (Reference) <US>c:@IntensityMax<UE> <DS>IntensityMax<DE> Extent=<ES>127:3 - 127:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:127:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>127:18 - 127:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:127:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>127:18 - 127:22<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:128:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>128:3 - 128:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:128:3: DeclRefExpr=IntenDiff|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:32:10 (Reference) <US>c:@IntenDiff<UE> <DS>IntenDiff<DE> Extent=<ES>128:3 - 128:12<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:128:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>128:15 - 128:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:128:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>128:15 - 128:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:129:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>129:3 - 129:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:129:3: DeclRefExpr=IntensityMin|C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:30:10 (Reference) <US>c:@IntensityMin<UE> <DS>IntensityMin<DE> Extent=<ES>129:3 - 129:15<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:129:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>129:18 - 129:19<EE>
+<L>C:\Git\LM4F120\LightSensor\02.src\lightSensor.c:129:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:18 - 129:19<EE>
